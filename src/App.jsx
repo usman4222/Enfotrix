@@ -1,12 +1,32 @@
+
 import SkillSec from "./Components/SkillSec"
+import { useState } from 'react'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Header from './component/Header'
+import { BrowserRouter } from "react-router-dom";
+import DemoCards from './component/DemoCards'
+import Footer from './component/Footer';
+import OnlinePlateForm from './component/OnlinePlateForm';
+import Main from './component/Main';
+import Reviews from './component/Reviews';
+import Testimonial from './component/Testimonial';
+
 
 function App() {
  
 
   return (
-    <>
-      <SkillSec />
-    </>
+    <BrowserRouter>
+      <Header />
+      <Main />
+      <OnlinePlateForm />
+      <DemoCards/>
+      <Testimonial/>
+      <Reviews/>
+      <Footer />
+    </BrowserRouter>
+
   )
 }
 
