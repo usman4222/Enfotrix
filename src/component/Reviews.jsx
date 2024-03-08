@@ -5,7 +5,7 @@ import { IoMdStar } from "react-icons/io";
 
 const Reviews = () => {
     return (
-        <div>
+        <div className='px-10'> 
             <div className='flex md:flex-row flex-col  items-center gap-12 pt-12'>
                 <div className='text-gray-700'>
                     <FaRegCircleUser className='text-8xl' />

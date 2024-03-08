@@ -12,8 +12,8 @@ const Testimonial = () => {
                         video
                     </div>
                     <div className='pt-8'>
-                        <h3 className='font-bold text-xl'>UMER ASLAM</h3>
-                        <p className='font-semibold'>(SARGODHA)</p>
+                        <h3 className='font-bold text-xl text-center'>UMER ASLAM</h3>
+                        <p className='font-semibold text-center'>(SARGODHA)</p>
                     </div>
                 </div>
                 <div className='pt-10 md:pt-0'>
@@ -21,8 +21,8 @@ const Testimonial = () => {
                         video
                     </div>
                     <div className='pt-8'>
-                        <h3 className='font-bold text-xl'>ALI AKBAR</h3>
-                        <p className='font-semibold'>(SARGODHA)</p>
+                        <h3 className='font-bold text-xl text-center'>ALI AKBAR</h3>
+                        <p className='font-semibold text-center'>(SARGODHA)</p>
                     </div>
                 </div>
                 <div className='pt-10 lg:pt-0'>
@@ -30,8 +30,8 @@ const Testimonial = () => {
                         video
                     </div>
                     <div className='pt-8'>
-                        <h3 className='font-bold text-xl'>SAMI ULLAH AWAN</h3>
-                        <p className='font-semibold'>(SARGODHA)</p>
+                        <h3 className='font-bold text-xl text-center'>SAMI ULLAH AWAN</h3>
+                        <p className='font-semibold text-center'>(SARGODHA)</p>
                     </div>
                 </div>
             </div>
