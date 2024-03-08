@@ -10,7 +10,7 @@ const DemoCards = () => {
                 <div>
                     <div className='flex justify-center items-center  h-[300px]'>
                         <div>
-                            <h3 className='uppercase pb-10 text-4xl text-white font-semibold'>FREELANCING PLATFORMS</h3>
+                            <h3 className='uppercase pb-10 text-4xl text-center text-white font-semibold'>FREELANCING PLATFORMS</h3>
                         </div>
                     </div>
                 </div>

@@ -11,6 +11,8 @@ import OnlinePlateForm from './component/OnlinePlateForm';
 import Main from './component/Main';
 import Reviews from './component/Reviews';
 import Testimonial from './component/Testimonial';
+import ImageGrid from "./screens/ImageGrid"
+import Performance from "./component/Performance"
 
 
 function App() {
@@ -20,7 +22,10 @@ function App() {
     <BrowserRouter>
       <Header />
       <Main />
+      <SkillSec/>
       <OnlinePlateForm />
+      <ImageGrid/>
+      <Performance/>
       <DemoCards/>
       <Testimonial/>
       <Reviews/>
