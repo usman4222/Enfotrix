@@ -7,12 +7,12 @@ const Graphicards = () => {
     return (
         <div>  
             <div className='py-10'>
-                <h1 className='text-4xl font-bold'>WHY LEARN GRAPHIC DESIGN?</h1>
+                <h1 className='text-4xl font-bold p-5 md:p-0'>WHY LEARN GRAPHIC DESIGN?</h1>
             </div>
             <div className='grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-4 bg-white'>
                 <div className='bg-blue-500'>
                     <div className='flex justify-center items-center  h-[300px] p-2'>
-                        <div className='p-9'>
+                        <div className='p-6'>
                             <h5 className='text-white font-semibold text-2xl pb-3'>1. High Demand:</h5>
                             <p className='text-lg text-white'>Businesses everywhere
                                 need eye-catching
@@ -23,7 +23,7 @@ const Graphicards = () => {
                 </div>
                 <div className='bg-blue-500'>
                     <div className='flex justify-center items-center  h-[300px] p-2'>
-                        <div className='p-9'>
+                        <div className='p-6'>
                             <h5 className='text-white font-semibold text-2xl pb-3'>2. Famous Brands:</h5>
                             <p className='text-lg text-white'>Big companies like Nike,
                                 Apple, and Coca-Cola rely
@@ -34,7 +34,7 @@ const Graphicards = () => {
                 </div>
                 <div className='bg-blue-500'>
                     <div className='flex justify-center items-center  h-[300px] p-2'>
-                        <div className='p-9'>
+                        <div className='p-6'>
                             <h5 className='text-white font-semibold text-2xl pb-3'>3. Quick Learning:</h5>
                             <p className='text-lg text-white'>You can become a skilled
                                 graphic designer in just
@@ -44,7 +44,7 @@ const Graphicards = () => {
                 </div>
                 <div className='bg-blue-500'>
                     <div className='flex justify-center items-center  h-[300px] p-2'>
-                        <div className='p-9'>
+                        <div className='p-6'>
                             <h5 className='text-white font-semibold text-2xl pb-3'>4. No Degree Needed</h5>
                             <p className='text-lg text-white'>Businesses everywhere
                                 need eye-catching

@@ -1,9 +1,10 @@
 import React from 'react'
 import Graphicards from '../component/Graphicards'
+import Overview from '../component/Overview'
 
 const Courses = () => {
     return (
-        <div className='px-16'>
+        <div className='md:px-16'>
             <div className='md:flex md:gap-10 grid'>
                 <div className='bg-gray-950 px-7 py-10 flex justify-center'>
                     <div>
@@ -23,6 +24,7 @@ const Courses = () => {
                 </div>
             </div>
             <Graphicards/>
+            <Overview/>
         </div>
     )
 }
