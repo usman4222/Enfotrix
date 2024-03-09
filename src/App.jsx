@@ -13,6 +13,7 @@ import Reviews from './component/Reviews';
 import Testimonial from './component/Testimonial';
 import ImageGrid from "./screens/ImageGrid"
 import Performance from "./component/Performance"
+import Courses from "./screens/Courses"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
+      <Courses/>
       <Main />
       <SkillSec/>
       <OnlinePlateForm />

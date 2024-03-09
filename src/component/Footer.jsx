@@ -45,9 +45,9 @@ const Footer = () => {
                     </div>
 
                     <div
-                        className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4"
+                        className="grid grid-cols-1 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4 "
                     >
-                        <div className="text-center sm:text-left">
+                        <div className="text-center sm:text-left lg:w-[300px] lg:ml-10">
                             {/* <p className="text-lg font-medium text-white">About Us</p> */}
                             <nav className="mt-8">
                                 <ul className="space-y-4 text-sm">
@@ -78,7 +78,7 @@ const Footer = () => {
                             </nav>
                         </div>
 
-                        <div className="text-center sm:text-left">
+                        <div className="text-center mt-20 md:mt-0 sm:text-left lg:ml-40 lg:w-[300px] md:ml-32 md:w-[250px]">
                             <p className="text-lg font-medium text-white">Get In Touch</p>
 
                             <ul className="mt-8 space-y-4 text-sm">
@@ -166,9 +166,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className="pt-6 mt-12 border-t border-gray-800">
-                    <div className="text-center sm:flex sm:justify-between sm:text-left">
+            </div>
+            <div className="pt-6 mt-12 border-t border-gray-800 px-20 pb-5">
+                    <div className="text-center sm:flex sm:justify-between sm:text-left ">
                         <p className="text-sm text-gray-400">
                             <span className="block sm:inline">All rights reserved.</span>
 
@@ -194,7 +194,6 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
-            </div>
         </footer>
     )
 }
