@@ -1,6 +1,9 @@
 import React from 'react'
 import Graphicards from '../component/Graphicards'
 import Overview from '../component/Overview'
+import Batches from '../component/Batches'
+import Entry from '../component/Entry'
+import FeedBack from '../component/FeedBack'
 
 const Courses = () => {
     return (
@@ -25,6 +28,9 @@ const Courses = () => {
             </div>
             <Graphicards/>
             <Overview/>
+            <Batches/>
+            <Entry/>
+            <FeedBack/>
         </div>
     )
 }
