@@ -23,7 +23,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      {/* <Courses/> */}
+      <Courses/>
       {/* <Main /> */}
       <Companies />
       <SkillSec />

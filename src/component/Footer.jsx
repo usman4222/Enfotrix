@@ -1,9 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import logo from '../assets/Logo-01.png'
+import { IoIosArrowUp } from "react-icons/io";
 
 const Footer = () => {
+
+
+    const [showButton, setShowButton] = useState(false);
+
+    const handleScroll = () => {
+        if (window.pageYOffset > 300) {
+            setShowButton(true);
+        } else {
+            setShowButton(false);
+        }
+    };
+
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
     return (
         <footer className="bg-[#414042] flex flex-col h-full">
             <div className="pt-6 mt-12 border-b border-white-800">
@@ -195,6 +214,14 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
+            {showButton && (
+                <button
+                    className="fixed bottom-4 z-50 right-4 bg-[#FFBA21] p-2 transition-opacity duration-300 hover:opacity-75"
+                    onClick={handleClick}
+                >
+                    <IoIosArrowUp className="text-[#414042] text-4xl" />
+                </button>
+            )}
         </footer>
     )
 }
