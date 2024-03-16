@@ -1,16 +1,17 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaGithub, FaDribbble, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
+import logo from '../assets/Logo-01.png'
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 flex flex-col h-full">
+        <footer className="bg-[#414042] flex flex-col h-full">
             <div className="pt-6 mt-12 border-b border-white-800">
                 <div className="text-center sm:flex sm:justify-between sm:text-left px-20 mb-8">
                     <div>
-                        <p className='text-white'>LOGO</p>
+                        <img src={logo} className='object-cover w-48 filter invert' alt="Logo" />
                     </div>
-                    <div className='flex justify-center items-center gap-6 text-white text-2xl'>
+                    <div className='flex justify-center items-center gap-6 text-[#f2f2f2] text-2xl'>
                         <span>
                             <FaPhone />
                         </span>
@@ -33,7 +34,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
                     <div>
                         <p
-                            className="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left"
+                            className="max-w-md mx-auto mt-6 leading-relaxed text-center text-[#f2f2f2] sm:max-w-xs sm:mx-0 sm:text-left"
                         >
                             ENFOTRIX, A LEADING IT AND SOFTWARE
                             DEVELOPMENT FIRM, EMPOWERS
@@ -52,25 +53,25 @@ const Footer = () => {
                             <nav className="mt-8">
                                 <ul className="space-y-4 text-sm">
                                     <li>
-                                        <a className="text-white transition hover:text-white/75" href="/">
+                                        <a className="text-[#f2f2f2] transition hover:text-white/75" href="/">
                                             KNOW MORE ABOUT ENFOTRIX
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a className="text-white transition hover:text-white/75" href="/">
+                                        <a className="text-[#f2f2f2] transition hover:text-white/75" href="/">
                                             VOICES OF SUCCESS
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a className="text-white transition hover:text-white/75" href="/">
+                                        <a className="text-[#f2f2f2] transition hover:text-white/75" href="/">
                                             ABOUT LIFE CHANGER
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a className="text-white transition hover:text-white/75" href="/">
+                                        <a className="text-[#f2f2f2] transition hover:text-white/75" href="/">
                                             KNOW MORE ABOUT SORIIC
                                         </a>
                                     </li>
@@ -79,7 +80,7 @@ const Footer = () => {
                         </div>
 
                         <div className="text-center mt-20 md:mt-0 sm:text-left lg:ml-40 lg:w-[300px] md:ml-32 md:w-[250px]">
-                            <p className="text-lg font-medium text-white">Get In Touch</p>
+                            <p className="text-lg font-medium text-[#f2f2f2]">Get In Touch</p>
 
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
@@ -89,7 +90,7 @@ const Footer = () => {
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="w-5 h-5 text-white shrink-0"
+                                            className="w-5 h-5 text-[#f2f2f2] shrink-0"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
@@ -102,7 +103,7 @@ const Footer = () => {
                                             />
                                         </svg>
 
-                                        <span className="text-white transition group-hover:text-white/75">
+                                        <span className="text-[#f2f2f2] transition group-hover:text-white/75">
                                             contact@Enfotrix.com
                                         </span>
                                     </a>
@@ -115,7 +116,7 @@ const Footer = () => {
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="w-5 h-5 text-white shrink-0"
+                                            className="w-5 h-5 text-[#f2f2f2] shrink-0"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
@@ -128,7 +129,7 @@ const Footer = () => {
                                             />
                                         </svg>
 
-                                        <span className="text-white transition group-hover:text-white/75">
+                                        <span className="text-[#f2f2f2] transition group-hover:text-white/75">
                                             +92 315 5658095
                                         </span>
                                     </a>
@@ -139,7 +140,7 @@ const Footer = () => {
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-5 h-5 text-white shrink-0"
+                                        className="w-5 h-5 text-[#f2f2f2] shrink-0"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -157,7 +158,7 @@ const Footer = () => {
                                         />
                                     </svg>
 
-                                    <address className="-mt-0.5 not-italic text-white">
+                                    <address className="-mt-0.5 not-italic text-[#f2f2f2]">
                                         ENFOTRIX (PVT.)LTD MAIN ZAFARULLAH
                                         CHOWK, SARGODHA
                                     </address>
@@ -168,32 +169,32 @@ const Footer = () => {
                 </div>
             </div>
             <div className="pt-6 mt-12 border-t border-gray-800 px-20 pb-5">
-                    <div className="text-center sm:flex sm:justify-between sm:text-left ">
-                        <p className="text-sm text-gray-400">
-                            <span className="block sm:inline">All rights reserved.</span>
+                <div className="text-center sm:flex sm:justify-between sm:text-left ">
+                    <p className="text-sm text-gray-400">
+                        <span className="block sm:inline">All rights reserved.</span>
 
-                            <a
-                                className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
-                                href="/"
-                            >
-                                Terms & Conditions
-                            </a>
+                        <a
+                            className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
+                            href="/"
+                        >
+                            Terms & Conditions
+                        </a>
 
-                            <span>&middot;</span>
+                        <span>&middot;</span>
 
-                            <a
-                                className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
-                                href="/"
-                            >
-                                Privacy Policy
-                            </a>
-                        </p>
+                        <a
+                            className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
+                            href="/"
+                        >
+                            Privacy Policy
+                        </a>
+                    </p>
 
-                        <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                            Copyright ©2023 Enfotrix | All rights reserved
-                        </p>
-                    </div>
+                    <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
+                        Copyright ©2023 Enfotrix | All rights reserved
+                    </p>
                 </div>
+            </div>
         </footer>
     )
 }

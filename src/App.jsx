@@ -14,23 +14,25 @@ import Testimonial from './component/Testimonial';
 import ImageGrid from "./screens/ImageGrid"
 import Performance from "./component/Performance"
 import Courses from "./screens/Courses"
+import Companies from "./component/Companies"
 
 
 function App() {
- 
+
 
   return (
     <BrowserRouter>
       <Header />
-      <Courses/>
-      <Main />
-      <SkillSec/>
+      {/* <Courses/> */}
+      {/* <Main /> */}
+      <Companies />
+      <SkillSec />
       <OnlinePlateForm />
-      <ImageGrid/>
-      <Performance/>
-      <DemoCards/>
-      <Testimonial/>
-      <Reviews/>
+      <ImageGrid />
+      <Performance />
+      <Testimonial />
+      <Reviews />
+      <DemoCards />
       <Footer />
     </BrowserRouter>
 

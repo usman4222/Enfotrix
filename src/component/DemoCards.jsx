@@ -1,12 +1,12 @@
 import React from 'react'
-import fiver from '../assets/fiver.webp'
-import up from '../assets/up.png'
-import free from '../assets/free.png'
+import fiver from '../assets/Logos-01.png'
+import up from '../assets/Logos-02.png'
+import free from '../assets/Logos-03.png'
 
 const DemoCards = () => {
     return (
         <div>
-            <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 bg-blue-600'>
+            <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 bg-[#0047ab]'>
                 <div>
                     <div className='flex justify-center items-center  h-[300px]'>
                         <div>
@@ -16,17 +16,17 @@ const DemoCards = () => {
                 </div>
                 <div className='flex justify-center items-center  h-[300px]'>
                     <div>
-                        <img className='object-cover w-15' src={fiver} />
+                        <img className='object-cover w-40' src={fiver} />
                     </div>
                 </div>
                 <div className='flex justify-center items-center  h-[300px]'>
                     <div>
-                        <img src={up} />
+                        <img className='object-cover h-16' src={up} />
                     </div>
                 </div>
                 <div className='flex justify-center items-center  h-[300px]'>
                     <div>
-                        <img src={free} />
+                        <img className='object-cover h-16' src={free} />
                     </div>
                 </div>
             </div>

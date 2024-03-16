@@ -1,50 +1,43 @@
 import React, { useState } from 'react';
 import { FaHome, FaChartBar, FaCog, FaUser } from 'react-icons/fa';
+import { FaLocationDot } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Main = () => {
-    const [isSidebarOpen, setSidebarOpen] = useState(false);
+  const [isSidebarOpen, setSidebarOpen] = useState(true);
 
-    const toggleSidebar = () => {
-        setSidebarOpen(!isSidebarOpen);
-    };
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
 
-    return (
-        <div className="flex h-screen bg-gray-100">
-            <aside className={`bg-blue-500 w-64 p-4 ${isSidebarOpen ? 'block' : 'hidden'} sm:block`}>
-                <div className="text-white text-2xl font-bold">Dashboard</div>
-                <nav className="mt-4">
-                    <a href="#" className="flex items-center py-2 px-4 text-white hover:bg-blue-700">
-                        <FaHome className="mr-2" /> Home
-                    </a>
-                    <a href="#" className="flex items-center py-2 px-4 text-white hover:bg-blue-700">
-                        <FaChartBar className="mr-2" /> Analytics
-                    </a>
-                    <a href="#" className="flex items-center py-2 px-4 text-white hover:bg-blue-700">
-                        <FaCog className="mr-2" /> Settings
-                    </a>
-                    <a href="#" className="flex items-center py-2 px-4 text-white hover:bg-blue-700">
-                        <FaUser className="mr-2" /> Profile
-                    </a>
-                </nav>
-            </aside>
-
-            <div className="flex-1 p-4">
-                <div className="sm:hidden">
-                    <button
-                        onClick={toggleSidebar}
-                        className="bg-blue-500 p-2 text-white"
-                    >
-                        ☰
-                    </button>
-                </div>
-
-                {/* Main Content Area */}
-                <h2>2,000+
-                    Candidates
-                    Trained</h2>
-            </div>
+  return (
+<div className="flex h-screen">
+      {/* Sidebar */}
+      <aside className="bg-gray-800 text-gray-200 w-64 fixed top-0 left-0 overflow-y-auto transition-all duration-300 z-50">
+        <div className="p-6">
+          <h1 className="text-2xl font-semibold mb-4">Dashboard</h1>
+          <ul>
+            <li className="mb-2"><a href="#" className="hover:bg-gray-700 rounded-md px-4 py-2 block">Home</a></li>
+            <li className="mb-2"><a href="#" className="hover:bg-gray-700 rounded-md px-4 py-2 block">Analytics</a></li>
+            <li className="mb-2"><a href="#" className="hover:bg-gray-700 rounded-md px-4 py-2 block">Reports</a></li>
+            <li className="mb-2"><a href="#" className="hover:bg-gray-700 rounded-md px-4 py-2 block">Settings</a></li>
+          </ul>
         </div>
-    );
+      </aside>
+
+      {/* Main Content */}
+      <main className="ml-64 flex-1">
+        {/* Content area */}
+        <div className="p-6">
+          <div className="bg-gray-200 p-6 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-semibold mb-4">Welcome to the Dashboard!</h2>
+            <p>This is the main content area of your dashboard.</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  );
 };
 
 export default Main;

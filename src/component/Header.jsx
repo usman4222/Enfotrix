@@ -1,13 +1,14 @@
 import React from 'react'
+import logo from '../assets/Logo-01.png'
 
 const Header = () => {
     return (
         <div>
             <header>
-                <nav className="bg-indigo-300 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+                <nav className="w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
                     <ul className="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
                         <a className="logo" href="#">
-                            <h3 className="font-bold text-2xl">LOGO</h3>
+                            <img src={logo} className='object-cover w-48'/>
                         </a>
                         <input type="checkbox" id="check" />
 
