@@ -14,7 +14,7 @@ import Testimonial from './component/Testimonial';
 import ImageGrid from "./screens/ImageGrid"
 import Performance from "./component/Performance"
 import Courses from "./screens/Courses"
-
+import Apply from "./component/Apply"
 
 function App() {
  
@@ -32,6 +32,7 @@ function App() {
       <Testimonial/>
       <Reviews/>
       <Footer />
+      <Apply/>
     </BrowserRouter>
 
   )
