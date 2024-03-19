@@ -8,9 +8,9 @@ const SkillSec = () => {
       
         <div
           className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/bg_soriic.jpeg")` }}
+          style={{ backgroundImage: `url("./src/assets/Graphic design.png")` }}
         >
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
+          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
           <div className="flex justify-around text-white mt-5 relative z-10">
             <label>2 Months</label>
             <label htmlFor="" className="text-yellow-500">
@@ -30,9 +30,9 @@ const SkillSec = () => {
         </div>
         <div
           className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/bg_soriic.jpeg")` }}
+          style={{ backgroundImage: `url("./src/assets/E commerce.png")` }}
         >
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
+          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
           <div className="flex justify-around text-white mt-5 relative z-10">
             <label>2 Months</label>
             <label htmlFor="" className="text-yellow-500">
@@ -41,7 +41,7 @@ const SkillSec = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">GRAPHIC DESIGN</h1>
+            <h1 className="text-white text-4xl py-3">E-COMMERCE</h1>
             <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
           </div>
 
@@ -52,9 +52,9 @@ const SkillSec = () => {
         </div>
         <div
           className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/bg_soriic.jpeg")` }}
+          style={{ backgroundImage: `url("./src/assets/Digital Marketing.png")` }}
         >
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
+          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
           <div className="flex justify-around text-white mt-5 relative z-10">
             <label>2 Months</label>
             <label htmlFor="" className="text-yellow-500">
@@ -63,7 +63,7 @@ const SkillSec = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">GRAPHIC DESIGN</h1>
+            <h1 className="text-white text-4xl py-3">DIGITAL MARKETING</h1>
             <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
           </div>
 
@@ -76,9 +76,9 @@ const SkillSec = () => {
       <div className="md:flex md:flex-row flex flex-col ">
       <div
           className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/bg_soriic.jpeg")` }}
+          style={{ backgroundImage: `url("./src/assets/App Dev.png")` }}
         >
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
+          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
           <div className="flex justify-around text-white mt-5 relative z-10">
             <label>2 Months</label>
             <label htmlFor="" className="text-yellow-500">
@@ -87,7 +87,7 @@ const SkillSec = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">GRAPHIC DESIGN</h1>
+            <h1 className="text-white text-4xl py-3">APP DEVELOPMENT</h1>
             <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
           </div>
 
@@ -98,9 +98,9 @@ const SkillSec = () => {
         </div>
       <div
           className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/bg_soriic.jpeg")` }}
+          style={{ backgroundImage: `url("./src/assets/Web.png")` }}
         >
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
+          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
           <div className="flex justify-around text-white mt-5 relative z-10">
             <label>2 Months</label>
             <label htmlFor="" className="text-yellow-500">
@@ -109,7 +109,7 @@ const SkillSec = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">GRAPHIC DESIGN</h1>
+            <h1 className="text-white text-4xl py-3">WEB DEVELOPMENT</h1>
             <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
           </div>
 
@@ -120,9 +120,9 @@ const SkillSec = () => {
         </div>
       <div
           className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/bg_soriic.jpeg")` }}
+          style={{ backgroundImage: `url("./src/assets/3D Modeling.png")` }}
         >
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
+          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
           <div className="flex justify-around text-white mt-5 relative z-10">
             <label>2 Months</label>
             <label htmlFor="" className="text-yellow-500">
@@ -131,7 +131,7 @@ const SkillSec = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">GRAPHIC DESIGN</h1>
+            <h1 className="text-white text-4xl py-3">3D MODELING</h1>
             <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
           </div>
 

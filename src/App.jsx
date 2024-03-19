@@ -15,6 +15,7 @@ import ImageGrid from "./screens/ImageGrid"
 import Performance from "./component/Performance"
 import Courses from "./screens/Courses"
 import Companies from "./component/Companies"
+import StudentIntake from "./component/StudentIntake"
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <Testimonial />
       <Reviews />
       <DemoCards />
+      <StudentIntake/>
       <Footer />
     </BrowserRouter>
 
