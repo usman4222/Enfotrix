@@ -5,13 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-   
     extend: {
+      backgroundImage: theme => ({
+        'footer-texture': "url('../assets/Footer Back Image-01.png')",
+      }),
       colors: {
-        'yellow-dark': '#EB9600', 
+        'yellow-dark': '#EB9600',
       },
     },
   },
   plugins: [],
 }
-
