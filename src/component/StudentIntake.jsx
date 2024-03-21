@@ -9,7 +9,7 @@ const StudentIntake = () => {
         <div>
             <div>
                 <h2 className='text-center font-bold text-[#414042] text-4xl uppercase px-3 md:px-0 py-5'>Student Intake</h2>
-                <p className='text-center text-[#414042] space-x-2 uppercase'>Graphic designn batch || (online)</p>
+                <p className='text-center text-[#414042] space-x-2 uppercase'>Graphic designn batch II (online)</p>
             </div>
             <div className='py-5'>
                 <div className='bg-slate-500 w-full h-[10px] flex '>

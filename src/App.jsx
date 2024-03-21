@@ -16,6 +16,7 @@ import Performance from "./component/Performance"
 import Courses from "./screens/Courses"
 import Companies from "./component/Companies"
 import StudentIntake from "./component/StudentIntake"
+import IntakeForm from "./component/IntakeForm"
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <Reviews />
       <DemoCards />
       <StudentIntake/>
+      <IntakeForm/>
       <Footer />
     </BrowserRouter>
 
