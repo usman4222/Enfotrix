@@ -17,6 +17,7 @@ import Courses from "./screens/Courses"
 import Companies from "./component/Companies"
 import StudentIntake from "./component/StudentIntake"
 import IntakeForm from "./component/IntakeForm"
+import PaymentProcess from "./component/PaymentProcess"
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <DemoCards />
       <StudentIntake/>
       <IntakeForm/>
+      <PaymentProcess/>
       <Footer />
     </BrowserRouter>
 

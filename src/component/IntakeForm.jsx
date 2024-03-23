@@ -48,8 +48,6 @@ const IntakeForm = () => {
                     <button className='px-6 md:px-20 py-4 md:py-3 text-[#414042] font-bold text-lg md:text-xl uppercase rounded-full mb-2 md:mb-0 md:mr-4'>back</button>
                     <button className='bg-[#0047ab] px-6 md:px-20 py-4 md:py-3 text-[#f2f2f2] font-bold text-lg md:text-xl uppercase rounded-full'>Next</button>
                 </div>
-
-
                 <div className='flex justify-evenly py-8 bg-[#f2f2f2]'>
                     <div className='uppercase text-lg text-[#414042] font-bold text-center mt-10'><p>how you will be contacted?</p></div>
                     <div className='text-[#414042]'>
@@ -58,8 +56,6 @@ const IntakeForm = () => {
                         </p>
                     </div>
                 </div>
-
-
                 <div className='bg-[#0047ab] md:py-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center py-10'>
                     <div className="flex justify-center">
                         <img className='object-cover w-20' src={person} alt="Person" />
