@@ -18,6 +18,8 @@ import Companies from "./component/Companies"
 import StudentIntake from "./component/StudentIntake"
 import IntakeForm from "./component/IntakeForm"
 import PaymentProcess from "./component/PaymentProcess"
+import About from "./component/About"
+import Apply from "./component/Apply"
 
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
+      <Apply/>
       <Courses/>
       {/* <Main /> */}
       <Companies />
@@ -37,6 +40,7 @@ function App() {
       <Reviews />
       <DemoCards />
       <StudentIntake/>
+      <About/>
       <IntakeForm/>
       <PaymentProcess/>
       <Footer />
