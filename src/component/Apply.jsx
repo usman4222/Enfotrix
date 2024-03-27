@@ -86,23 +86,27 @@ const Apply = () => {
                         <h1 className="md:text-center text-center text-[#f2f2f2] text-lg pb-2 uppercase">
                             for regular classes
                         </h1>
-                        <button className="bg-[#ffba21] flex flex-col md:items-center items-center md:rounded-xl rounded-md py-1">
-                            <span className="md:text-[28px] md:rounded-2xl rounded-xl text-lg px-10 text-[#414042]">
-                                APPLY NOW{" "}
-                            </span>
-                            <span className="md:text-xl md:-mt-1 text-[#414042]">15000,PKR</span>
-                        </button>
+                        <Link to='/student-intake'>
+                            <button className="bg-[#ffba21] flex flex-col md:items-center items-center md:rounded-xl rounded-md py-1">
+                                <span className="md:text-[28px] md:rounded-2xl rounded-xl text-lg px-10 text-[#414042]">
+                                    APPLY NOW{" "}
+                                </span>
+                                <span className="md:text-xl md:-mt-1 text-[#414042]">15000,PKR</span>
+                            </button>
+                        </Link>
                     </div>
                     <div className="text-center md:text-center  md:font-bold font-bold mt-7">
                         <h1 className="md:text-center text-center text-[#f2f2f2] text-lg pb-2 uppercase">
                             for online classes
                         </h1>
-                        <button className="bg-[#ffba21] flex flex-col  items-center md:rounded-xl rounded-md py-1">
-                            <span className="md:text-[28px] md:rounded-2xl rounded-xl text-lg px-10 text-[#414042]">
-                                APPLY NOW{" "}
-                            </span>
-                            <span className="md:text-xl md:-mt-1 text-[#414042]">5000,PKR</span>
-                        </button>
+                        <Link to='/student-intake'>
+                            <button className="bg-[#ffba21] flex flex-col  items-center md:rounded-xl rounded-md py-1">
+                                <span className="md:text-[28px] md:rounded-2xl rounded-xl text-lg px-10 text-[#414042]">
+                                    APPLY NOW{" "}
+                                </span>
+                                <span className="md:text-xl md:-mt-1 text-[#414042]">5000,PKR</span>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

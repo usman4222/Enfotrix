@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PaymentProcess = () => {
     return (
@@ -117,7 +118,9 @@ const PaymentProcess = () => {
                     </div>
                 </div>
                 <div className='flex flex-col items-center md:flex-row md:justify-between pl-4 md:pl-0 py-6 md:py-12'>
+                    <Link to='/student-intake'>
                     <button className='px-4 md:px-8 py-3 md:py-4 text-[#414042] font-bold text-xs md:text-base uppercase rounded-full mb-2 md:mb-0 md:mr-2'>Back</button>
+                    </Link>
                     <button className='bg-[#0047ab] px-4 md:px-8 py-3 md:py-4 text-[#f2f2f2] font-bold text-xs md:text-base uppercase rounded-full'>Payment Confirmed</button>
                 </div>
             </div>

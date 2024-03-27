@@ -3,6 +3,7 @@ import key1 from '../assets/Key Skills-01.png'
 import key2 from '../assets/Key Skills-02.png'
 import key3 from '../assets/Key Skills-03.png'
 import person from '../assets/Support Icon-01.png'
+import { Link } from 'react-router-dom'
 
 const StudentIntake = () => {
     return (
@@ -44,8 +45,12 @@ const StudentIntake = () => {
                 </div>
             </div>
             <div className='md:flex md:justify-between md:py-8 pl-14 md:pl-0 py-12'>
-                <button className=' px-20 py-10 md:py-3 text-[#414042] font-bold text-xl uppercase rounded-full'>back</button>
-                <button className='bg-[#0047ab] px-20 py-3 text-[#f2f2f2] font-bold text-xl uppercase rounded-full'>Next</button>
+                <Link to='/graphic-design'>
+                    <button className=' px-20 py-10 md:py-3 text-[#414042] font-bold text-xl uppercase rounded-full'>back</button>
+                </Link>
+                <Link to='/payment'>
+                    <button className='bg-[#0047ab] px-20 py-3 text-[#f2f2f2] font-bold text-xl uppercase rounded-full'>Next</button>
+                </Link>
             </div>
             <div className='bg-[#0047ab] md:py-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center py-10'>
                 <div className="flex justify-center">

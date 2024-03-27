@@ -4,11 +4,10 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './component/Header'
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DemoCards from './component/DemoCards'
 import Footer from './component/Footer';
 import OnlinePlateForm from './component/OnlinePlateForm';
-import Main from './component/Main';
 import Reviews from './component/Reviews';
 import Testimonial from './component/Testimonial';
 import ImageGrid from "./screens/ImageGrid"
@@ -20,6 +19,7 @@ import IntakeForm from "./component/IntakeForm"
 import PaymentProcess from "./component/PaymentProcess"
 import About from "./component/About"
 import Apply from "./component/Apply"
+import Main from "./component/Main"
 
 
 function App() {
@@ -28,21 +28,13 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Apply/>
-      <Courses/>
-      {/* <Main /> */}
-      <Companies />
-      <SkillSec />
-      <OnlinePlateForm />
-      <ImageGrid />
-      <Performance />
-      <Testimonial />
-      <Reviews />
-      <DemoCards />
-      <StudentIntake/>
-      <About/>
-      <IntakeForm/>
-      <PaymentProcess/>
+      <Routes>
+        <Route path='/' element={<Main/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/graphic-design' element={<Courses/>}/>
+        <Route path="student-intake" element={<StudentIntake/>}/>
+        <Route path="/payment" element={<PaymentProcess/>}/>
+      </Routes>
       <Footer />
     </BrowserRouter>
 
@@ -50,3 +42,17 @@ function App() {
 }
 
 export default App
+{/* <Main/>
+<Courses/>
+<Companies />
+<SkillSec />
+<OnlinePlateForm />
+<ImageGrid />
+<Performance />
+<Testimonial />
+<Reviews />
+<DemoCards />
+<StudentIntake/>
+<About/>
+<IntakeForm/>
+<PaymentProcess/> */}
