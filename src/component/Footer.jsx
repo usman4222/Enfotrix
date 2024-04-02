@@ -219,8 +219,8 @@ const Footer = () => {
         // </footer>
         <footer>
             <div className='bg-[#414042]'>
-                <div className='flex justify-between py-10 px-16'>
-                    <div>
+                <div className='flex md:flex-row md:justify-between py-10 lg:px-16 md:px-10 flex-col '>
+                    <div className='flex justify-center pb-10 md:block md:pb-0'>
                         <img src={logo} className='object-cover w-48 filter invert' alt="Logo" />
                     </div>
                     <div className='flex justify-center items-center gap-6 text-2xl text-[#f2f2f2]'>
@@ -242,9 +242,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='h-[2px] w-full bg-[#f2f2f2]'></div>
-                <div className='flex text-[#f2f2f2] py-16 px-16 absolute top-0 left-0 '  >
-                    {/* <div>
-                        <h6>
+                <div className='flex md:flex-row text-[#f2f2f2] mt-16 md:mt-0 lg:py-28 lg:px-16 md:px-10  md:py-14 md:gap-10  absolute justify-between w-[100%] flex-col gap-5'  >
+                    <div className='w-[300px] '>
+                        <h6 className='text-center ml-2 md:text-left md:ml-0'>
                             ENFOTRIX, A LEADING IT AND SOFTWARE
                             DEVELOPMENT FIRM, EMPOWERS
                             INDIVIDUALS THROUGH CUTTING-EDGE
@@ -253,20 +253,20 @@ const Footer = () => {
                             LEADERS OF TOMORROW.
                         </h6>
                     </div>
-                    <div>
+                    <div className='flex flex-col  lg:gap-10 md:gap-5 underline text-center md:text-left my-3 md:my-0'>
                         <a>KNOW MORE ABOUT ENFOTRIX</a>
-                        <a>VOICES OF SUCCESS</a>
-                        <a>ABOUT LIFE CHANGER</a>
-                        <a>KNOW MORE ABOUT SORIIC</a>
+                        <a className='pt-2 md:pt-0'>VOICES OF SUCCESS</a>
+                        <a className='pt-2 md:pt-0'>ABOUT LIFE CHANGER</a>
+                        <a className='pt-2 md:pt-0'>KNOW MORE ABOUT SORIIC</a>
                     </div>
-                    <div>
-                        <h3>GET IN TOUCH</h3>
-                        <p>ENFOTRIX (PVT.)LTD MAIN ZAFARULLAH CHOWK, SARGODHA</p>
-                        <p>contact@Enfotrix.com</p>
-                        <p>+92 315 5658095</p>
-                    </div> */}
+                    <div className='flex flex-col lg:gap-5 md:gap-2 text-center md:text-left'>
+                        <h3 className='font-bold text-xl mb-4'>GET IN TOUCH</h3>
+                        <p className='lg:w-[250px] md:w-[180px]'>ENFOTRIX (PVT.)LTD MAIN ZAFARULLAH CHOWK, SARGODHA</p>
+                        <p className='pt-2 md:pt-0'>contact@Enfotrix.com</p>
+                        <p className='pt-2 md:pt-0'>+92 315 5658095</p>
+                    </div>
                 </div>
-                <img className='relative pt-16' src={footerImg} alt="footer" />
+                <img className='relative pt-16  h-[584px] md:h-auto' src={footerImg} alt="footer" />
                 {/* <div className='flex justify-between text-[#f2f2f2] py-5 px-16'>
                     <div>
                         <p>Copyright ©2023 Enfotrix | All rights reserved</p>
