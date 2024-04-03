@@ -34,6 +34,7 @@ function App() {
         <Route path='/graphic-design' element={<Courses/>}/>
         <Route path="student-intake" element={<StudentIntake/>}/>
         <Route path="/payment" element={<PaymentProcess/>}/>
+        <Route path="/payment" element={<PaymentProcess/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>
