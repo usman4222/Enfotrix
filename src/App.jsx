@@ -15,12 +15,13 @@ import ImageGrid from "./screens/ImageGrid"
 import Performance from "./component/Performance"
 import Courses from "./screens/Courses"
 import Apply from "./component/Apply"
-
+import Registration_Form from "./Components/Registration_Form"
+import Batches from "./Components/Batches"
 function App() {
- 
-
-  return (
+ return (
     <BrowserRouter>
+      <Batches />   
+    <Registration_Form/>
       <Header />
       <Courses/>
       <Main />
