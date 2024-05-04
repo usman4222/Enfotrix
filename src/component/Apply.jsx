@@ -110,7 +110,6 @@ const Apply = () => {
                     </div>
                 </div>
             </div>
-            <Sidebar />
         </div>
     );
 };

@@ -19,6 +19,8 @@ const Header = () => {
                 return 'Student Intake';
             case '/payment':
                 return 'Payment';
+            case '/faqs':
+                return "FAQ'S"
             default:
                 return 'undefined';
         }

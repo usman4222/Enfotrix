@@ -126,7 +126,6 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-                <Sidebar />
             </div >
             <Companies />
             <SkillSec />
