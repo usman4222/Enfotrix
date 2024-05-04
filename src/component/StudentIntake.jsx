@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import key1 from '../assets/Key Skills-01.png'
 import key2 from '../assets/Key Skills-02.png'
 import key3 from '../assets/Key Skills-03.png'
@@ -6,6 +6,11 @@ import person from '../assets/Support Icon-01.png'
 import { Link } from 'react-router-dom'
 
 const StudentIntake = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
         <div>
             <div>

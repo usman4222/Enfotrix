@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Main from './Main'
 import Sidebar from './Sidebar'
 
 const About = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
         <>
             <div className='mt-10 bg-[#f2f2f2] text-[#414042] text-lg'>

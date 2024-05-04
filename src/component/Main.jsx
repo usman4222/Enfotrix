@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import course from "../assets/course.jpg";
 import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
@@ -17,6 +17,11 @@ import Performance from "./Performance";
 
 
 const Main = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
         <>
             <div className="md:flex md:justify-around relative">
