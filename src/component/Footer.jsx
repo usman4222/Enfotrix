@@ -8,21 +8,21 @@ import footerImg from '../assets/Footer Back Image-01.png'
 const Footer = () => {
 
 
-    // const [showButton, setShowButton] = useState(false);
+    const [showButton, setShowButton] = useState(false);
 
-    // const handleScroll = () => {
-    //     if (window.pageYOffset > 300) {
-    //         setShowButton(true);
-    //     } else {
-    //         setShowButton(false);
-    //     }
-    // };
+    const handleScroll = () => {
+        if (window.pageYOffset > 300) {
+            setShowButton(true);
+        } else {
+            setShowButton(false);
+        }
+    };
 
-    // const handleClick = () => {
-    //     window.scrollTo({ top: 0, behavior: 'smooth' });
-    // };
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
-    // window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     return (
         // <footer className="bg-[#414042] flex flex-col h-full">
@@ -188,33 +188,33 @@ const Footer = () => {
         //             </div>
         //         </div>
         //     </div>
-            // <div className="pt-6 mt-12 border-t border-gray-800 px-20 pb-5">
-            //     <div className="text-center sm:flex sm:justify-between sm:text-left ">
-            //         <p className="text-sm text-gray-400">
-            //             <span className="block sm:inline">All rights reserved.</span>
+        // <div className="pt-6 mt-12 border-t border-gray-800 px-20 pb-5">
+        //     <div className="text-center sm:flex sm:justify-between sm:text-left ">
+        //         <p className="text-sm text-gray-400">
+        //             <span className="block sm:inline">All rights reserved.</span>
 
-            //             <a
-            //                 className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
-            //                 href="/"
-            //             >
-            //                 Terms & Conditions
-            //             </a>
+        //             <a
+        //                 className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
+        //                 href="/"
+        //             >
+        //                 Terms & Conditions
+        //             </a>
 
-            //             <span>&middot;</span>
+        //             <span>&middot;</span>
 
-            //             <a
-            //                 className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
-            //                 href="/"
-            //             >
-            //                 Privacy Policy
-            //             </a>
-            //         </p>
+        //             <a
+        //                 className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
+        //                 href="/"
+        //             >
+        //                 Privacy Policy
+        //             </a>
+        //         </p>
 
-            //         <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-            //             Copyright ©2023 Enfotrix | All rights reserved
-            //         </p>
-            //     </div>
-            // </div>
+        //         <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
+        //             Copyright ©2023 Enfotrix | All rights reserved
+        //         </p>
+        //     </div>
+        // </div>
 
         // </footer>
         <footer>
@@ -274,32 +274,39 @@ const Footer = () => {
                     <div>Design: Arslan Khalid Development: ABC</div>
                 </div> */}
                 <div className="pt-6 mt-12 border-t border-gray-800 px-20 pb-5">
-                <div className="text-center sm:flex sm:justify-between sm:text-left ">
-                    <p className="text-sm text-gray-400">
-                        <span className="block sm:inline">All rights reserved.</span>
+                    <div className="text-center sm:flex sm:justify-between sm:text-left ">
+                        <p className="text-sm text-gray-400">
+                            <span className="block sm:inline">All rights reserved.</span>
+                            <a
+                                className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
+                                href="/"
+                            >
+                                Terms & Conditions
+                            </a>
 
-                        <a
-                            className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
-                            href="/"
-                        >
-                            Terms & Conditions
-                        </a>
+                            <span>&middot;</span>
 
-                        <span>&middot;</span>
+                            <a
+                                className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
+                                href="/"
+                            >
+                                Privacy Policy
+                            </a>
+                        </p>
 
-                        <a
-                            className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
-                            href="/"
-                        >
-                            Privacy Policy
-                        </a>
-                    </p>
-
-                    <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                        Copyright ©2023 Enfotrix | All rights reserved
-                    </p>
+                        <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
+                            Copyright ©2023 Enfotrix | All rights reserved
+                        </p>
+                    </div>
                 </div>
-            </div>
+                {showButton && (
+                    <button
+                        className="fixed bottom-4 z-50 right-4 bg-[#FFBA21] p-2 transition-opacity duration-300 hover:opacity-75"
+                        onClick={handleClick}
+                    >
+                        <IoIosArrowUp className="text-[#414042] text-4xl" />
+                    </button>
+                )}
             </div>
         </footer>
     )
@@ -307,11 +314,3 @@ const Footer = () => {
 
 export default Footer
 
-// {showButton && (
-//     <button
-//         className="fixed bottom-4 z-50 right-4 bg-[#FFBA21] p-2 transition-opacity duration-300 hover:opacity-75"
-//         onClick={handleClick}
-//     >
-//         <IoIosArrowUp className="text-[#414042] text-4xl" />
-//     </button>
-// )}

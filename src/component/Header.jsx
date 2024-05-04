@@ -1,16 +1,52 @@
 import React from 'react'
 import logo from '../assets/Logo-01.png'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import { IoMdArrowDropright } from "react-icons/io";
 
 const Header = () => {
+
+    const location = useLocation();
+    const currentPath = location.pathname;
+    const getPageName = () => {
+        switch (currentPath) {
+            case '/':
+                return 'Home';
+            case '/about':
+                return 'About';
+            case '/graphic-design':
+                return 'Graphic Design';
+            case '/student-intake':
+                return 'Student Intake';
+            case '/payment':
+                return 'Payment';
+            default:
+                return 'undefined';
+        }
+    };
+
     return (
         <div>
             <header>
-                <nav className="w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+                <nav className="w-full z-20 top-0 left-0 border-b border-gray-200 ">
                     <ul className="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
-                        <a className="logo" href="/">
-                            <img src={logo} className='object-cover w-48' />
-                        </a>
+                        <div>
+                            <a className="logo" href="/">
+                                <img src={logo} className='object-cover w-48' alt="Logo" />
+                            </a>
+                            <div className='flex mt-5'>
+                                <Link to="/">
+                                    <p>Home</p>
+                                </Link>
+                                <div className='flex ml-5'>
+                                    <div className='flex items-center mr-5'>
+                                        <IoMdArrowDropright className='text-3xl' />
+                                    </div>
+                                    <div>
+                                        <p>{getPageName()}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <input type="checkbox" id="check" />
 
                         <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:font-medium [&>li>a]:text-lg">
