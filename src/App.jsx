@@ -17,23 +17,25 @@ import Courses from "./screens/Courses"
 import Apply from "./component/Apply"
 import Registration_Form from "./Components/Registration_Form"
 import Batches from "./Components/Batches"
+import Mentors from "./Components/Mentors"
 function App() {
- return (
+  return (
     <BrowserRouter>
-      <Batches />   
-    <Registration_Form/>
+      <Mentors />
+      <Batches />
+      <Registration_Form />
       <Header />
-      <Courses/>
+      <Courses />
       <Main />
-      <SkillSec/>
+      <SkillSec />
       <OnlinePlateForm />
-      <ImageGrid/>
-      <Performance/>
-      <DemoCards/>
-      <Testimonial/>
-      <Reviews/>
+      <ImageGrid />
+      <Performance />
+      <DemoCards />
+      <Testimonial />
+      <Reviews />
       <Footer />
-      <Apply/>
+      <Apply />
     </BrowserRouter>
 
   )
