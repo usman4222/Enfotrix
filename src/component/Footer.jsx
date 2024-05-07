@@ -52,7 +52,7 @@ const Footer = () => {
                 <div className='h-[2px] w-full bg-[#f2f2f2]'></div>
                 <div className='flex md:flex-row text-[#f2f2f2] mt-16 md:mt-0 lg:py-28 lg:px-16 md:px-10  md:py-14 md:gap-10  absolute justify-between w-[100%] flex-col gap-5'  >
                     <div className='w-auto md:w-[300px]'>
-                        <h6 className='text-center ml-2 px-16 md:px-0 md:text-left md:ml-0'>
+                        <h6 className='text-center ml-2 px-12 md:px-0 md:text-left md:ml-0'>
                             ENFOTRIX, A LEADING IT AND SOFTWARE
                             DEVELOPMENT FIRM, EMPOWERS
                             INDIVIDUALS THROUGH CUTTING-EDGE
