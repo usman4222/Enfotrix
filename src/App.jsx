@@ -10,6 +10,7 @@ import About from "./component/About"
 import Main from "./component/Main"
 import FAQ from './Pages/FAQ';
 import Sidebar from './component/Sidebar';
+import Batches from './component/Batches';
 
 
 function App() {
@@ -20,12 +21,12 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Main/>}/>
-        {/* <Route path='/side' element={<Sidebar/>}/> */}
         <Route path='/about' element={<About/>}/>
         <Route path='/graphic-design' element={<Courses/>}/>
         <Route path="student-intake" element={<StudentIntake/>}/>
         <Route path="/payment" element={<PaymentProcess/>}/>
         <Route path="/faqs" element={<FAQ/>}/>
+        <Route path="/batches" element={<Batches/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -5,6 +5,7 @@ import key3 from '../assets/Key Skills-03.png'
 import person from '../assets/Support Icon-01.png'
 import { Link } from 'react-router-dom'
 import Sidebar from './Sidebar'
+import Side from './Side'
 
 const StudentIntake = () => {
 
@@ -15,7 +16,7 @@ const StudentIntake = () => {
     return (
         <div className='flex'>
             <div>
-                <Sidebar />
+                <Side />
             </div>
             <div>
                 <div>

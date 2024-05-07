@@ -14,6 +14,7 @@ import Testimonial from "./Testimonial";
 import Reviews from "./Reviews";
 import DemoCards from "./DemoCards";
 import Performance from "./Performance";
+import Side from "./Side";
 
 
 const Main = () => {
@@ -25,65 +26,7 @@ const Main = () => {
     return (
         <>
             <div className="md:flex md:justify-around relative">
-                <div className="md:leading-10 hidden lg:inline-block pr-16">
-                    <ul className="flex flex-col bg-white">
-                        <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                            <Link to="/" className="hover:underline text-sm pb-8">
-                                HOME
-                            </Link>
-                        </li>
-                        <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                            <Link to="/about" className="hover:underline text-sm">
-                                ABOUT US
-                            </Link>
-                        </li>
-                        <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                            <Link to="/courses" className="hover:underline text-sm ">
-                                OUR COURSES
-                            </Link>
-                        </li>
-                        <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                            <Link to="/mentors" className="hover:underline text-sm ">
-                                MENTORS
-                            </Link>
-                        </li>
-                        <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                            <Link to="/gallery" className="hover:underline text-sm  ">
-                                PHOTO GALLERY
-                            </Link>
-                        </li>
-                        <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                            <Link to="/batches" className="hover:underline text-sm ">
-                                BATCHES
-                            </Link>
-                        </li>
-                        <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                            <Link to="/faqs" className="hover:underline text-sm ">
-                                FAQS
-                            </Link>
-                        </li>
-                        <li className="mb-2 md:mb-0 pb-2 pl-14 w-[130%]">
-                            <Link to="/job-internship" className="hover:underline text-sm ">
-                                JOB / INTERNSHIP PORTAL
-                            </Link>
-                        </li>
-                        <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                            <Link to="/testimonials" className="hover:underline text-sm ">
-                                TESTIMONIALS
-                            </Link>
-                        </li>
-                        <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                            <Link to="/login" className="hover:underline text-sm ">
-                                CANDIDATE LOGIN
-                            </Link>
-                        </li>
-                        <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                            <Link to="/contact" className="hover:underline text-sm ">
-                                CONTACT
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
+                <Side/>
                 <div className="flex flex-col">
                     <div className="relative h-[80%]">
                         <img src={course} className=" md:w-screen bg-cover relative" alt="Course" />

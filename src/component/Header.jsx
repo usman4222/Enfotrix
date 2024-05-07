@@ -21,6 +21,8 @@ const Header = () => {
                 return 'Payment';
             case '/faqs':
                 return "FAQ'S"
+            case '/batches':
+                return "Batches"
             default:
                 return 'undefined';
         }
