@@ -45,16 +45,16 @@ const Main = () => {
                         <div className='flex md:block justify-center bg-[#ffba21]'>
                             <div className="bg-[#ffba21] flex-cols md:flex md:flex-row md:justify-evenly items-center">
                                 <div className="flex items-center py-5">
-                                    <div><IoLocationSharp className="lg:text-6xl md:text-3xl text-2xl text-[#414042]" /></div>
+                                    <div><IoLocationSharp className="lg:text-6xl md:text-3xl mr-2 text-2xl text-[#414042]" /></div>
                                     <p className="text-[#414042] font-semibold md:text-sm ">Enfotrix (Pvt.)Ltd Main zafarullah<br />
                                         chowk, Sargodha</p>
                                 </div>
                                 <div className="flex items-center py-5">
-                                    <div><BiLogoGmail className="text-xl text-[#414042]" /></div>
+                                    <div><BiLogoGmail className="text-xl text-[#414042] mr-2" /></div>
                                     <p className="text-[#414042] lg:text-xl md:text-sm font-semibold">contact@Enfotrix.com</p>
                                 </div>
                                 <div className="flex items-center py-5">
-                                    <div><FaPhoneAlt className="text-xl text-[#414042]" /></div>
+                                    <div><FaPhoneAlt className="text-xl text-[#414042] mr-2" /></div>
                                     <p className="text-[#414042] text-xl md:text-sm font-bold">+92 315 5658095</p>
                                 </div>
                                 <div className='bg-white p-5 rounded-tl-[50px] rounded-tr-[50px] mt-5 md:mt-0'>
