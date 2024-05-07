@@ -30,7 +30,7 @@ const Side = () => {
         </li>
         <li>
           <Link 
-            to="/courses" 
+            to="/graphic-design" 
             className={`hover:underline text-sm uppercase ${activeLink === '/courses' && 'text-yellow-500'}`}
           >
             our courses
