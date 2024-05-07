@@ -51,8 +51,8 @@ const Footer = () => {
                 </div>
                 <div className='h-[2px] w-full bg-[#f2f2f2]'></div>
                 <div className='flex md:flex-row text-[#f2f2f2] mt-16 md:mt-0 lg:py-28 lg:px-16 md:px-10  md:py-14 md:gap-10  absolute justify-between w-[100%] flex-col gap-5'  >
-                    <div className='w-[300px] '>
-                        <h6 className='text-center ml-2 md:text-left md:ml-0'>
+                    <div className='w-auto md:w-[300px]'>
+                        <h6 className='text-center ml-2 px-16 md:px-0 md:text-left md:ml-0'>
                             ENFOTRIX, A LEADING IT AND SOFTWARE
                             DEVELOPMENT FIRM, EMPOWERS
                             INDIVIDUALS THROUGH CUTTING-EDGE
@@ -69,7 +69,7 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col lg:gap-5 md:gap-2 text-center md:text-left'>
                         <h3 className='font-bold text-xl mb-4'>GET IN TOUCH</h3>
-                        <p className='lg:w-[250px] md:w-[180px]'>ENFOTRIX (PVT.)LTD MAIN ZAFARULLAH CHOWK, SARGODHA</p>
+                        <p className='lg:w-[250px] md:w-[180px] px-5 md:px-0'>ENFOTRIX (PVT.)LTD MAIN ZAFARULLAH CHOWK, SARGODHA</p>
                         <p className='pt-2 md:pt-0'>contact@Enfotrix.com</p>
                         <p className='pt-2 md:pt-0'>+92 315 5658095</p>
                     </div>
