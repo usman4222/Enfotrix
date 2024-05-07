@@ -10,7 +10,7 @@ const Side = () => {
   }, [location]);
 
   return (
-    <div className="hidden lg:inline-block bg-white w-[280px] pl-16">
+    <div className="hidden lg:inline-block bg-white w-[280px] pl-16 mt-2">
       <ul className="flex flex-col gap-4 mt-20 ">
         <li>
           <Link 
