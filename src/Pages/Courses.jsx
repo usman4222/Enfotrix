@@ -15,7 +15,7 @@ const Courses = () => {
     return (
         <>
             <Apply />
-            <div className='md:px-16 lg:px-0 lg:pl-[243px]'>
+            <div className='md:px-16 lg:px-0 lg:pl-[241px]'>
                 <div className='md:flex md:gap-10 grid'>
                     <div className='bg-[#414042] px-7 py-10 flex justify-center'>
                         <div>
@@ -37,7 +37,7 @@ const Courses = () => {
                 <div className='bg-[#f2f2f2] lg:px-10'>
                     <Graphicards />
                     <Overview />
-                    <Batches />
+                    {/* <Batches /> */}
                     <Entry />
                     <FeedBack />
                 </div>

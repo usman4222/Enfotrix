@@ -2,70 +2,13 @@ import React from "react";
 import course from "../assets/course.jpg";
 import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
+import Side from "./Side";
 
 const Apply = () => {
     return (
         <div className="md:flex md:justify-around relative">
-            <div className="md:leading-10 hidden lg:inline-block pr-16">
-                <ul className="flex flex-col bg-white">
-                    <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                        <Link to="/" className="hover:underline text-sm pb-8">
-                            HOME
-                        </Link>
-                    </li>
-                    <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                        <Link to="/about" className="hover:underline text-sm">
-                            ABOUT US
-                        </Link>
-                    </li>
-                    <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                        <Link to="/courses" className="hover:underline text-sm ">
-                            OUR COURSES
-                        </Link>
-                    </li>
-                    <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                        <Link to="/mentors" className="hover:underline text-sm ">
-                            MENTORS
-                        </Link>
-                    </li>
-                    <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                        <Link to="/gallery" className="hover:underline text-sm  ">
-                            PHOTO GALLERY
-                        </Link>
-                    </li>
-                    <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                        <Link to="/batches" className="hover:underline text-sm ">
-                            BATCHES
-                        </Link>
-                    </li>
-                    <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                        <Link to="/faqs" className="hover:underline text-sm ">
-                            FAQS
-                        </Link>
-                    </li>
-                    <li className="mb-2 md:mb-0 pb-2 pl-14 w-[130%]">
-                        <Link to="/job-internship" className="hover:underline text-sm ">
-                            JOB / INTERNSHIP PORTAL
-                        </Link>
-                    </li>
-                    <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                        <Link to="/testimonials" className="hover:underline text-sm ">
-                            TESTIMONIALS
-                        </Link>
-                    </li>
-                    <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                        <Link to="/login" className="hover:underline text-sm ">
-                            CANDIDATE LOGIN
-                        </Link>
-                    </li>
-                    <li className="mb-2 md:mb-0 md:pb-3 md:pl-14 pb-2">
-                        <Link to="/contact" className="hover:underline text-sm ">
-                            CONTACT
-                        </Link>
-                    </li>
-                </ul>
-            </div>
-            <div>
+            <Side/>
+            <div className="w-full">
                 <img src={course} className="md:h-[70vh] h-[36vh] md:w-screen bg-cover" />
                 <div className="md:absolute left-0 top-0 h-full"></div>
                 <section className="bg-[#0047ab] text-white py-16 pl-5 md:pl-5 lg:pl-16 md:px-20 md:py-10 font-bold flex relative">

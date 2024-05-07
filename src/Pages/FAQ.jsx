@@ -17,7 +17,7 @@ const FAQ = () => {
             <div className='bg-[#f2f2f2] w-full'>
                 <div className='pt-10 pb-5 '>
                     <h1 className='text-4xl text-center font-bold p-5 md:p-0 text-[#414042]'>FREQUENTLY ASKED QUESTIONS</h1>
-                    <p className='text-center text-[#414042] space-x-2 uppercase py-6'>Discover answers to common questions about our courses, services, and payments in our FAQ section.</p>
+                    <p className='text-center text-[#414042] space-x-2 uppercase py-6 md:px-10 lg:px-0'>Discover answers to common questions about our courses, services, and payments in our FAQ section.</p>
                 </div>
                 <div className='md:px-16 px-8 '>
                     <div className='flex justify-between cursor-pointer' onClick={() => toggleOpenArrow(0)}>
