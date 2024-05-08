@@ -12,7 +12,7 @@ const Batches = () => {
                     <div className='py-10'>
                         <h1 className='text-4xl font-bold p-5 md:p-0 text-[#414042]'>BATCH INFORMATION</h1>
                     </div>
-                    <div className='bg-[#414042] flex justify-between px-1 md:px-6 lg:px-28 py-8'>
+                    <div className='bg-[#414042] flex justify-between md:px-6 lg:px-28 py-8 px-5'>
                         <div>
                             <p className='text-[#ffba21] font-semibold'>Duration: 2 Months </p>
                         </div>
