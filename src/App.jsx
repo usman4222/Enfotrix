@@ -12,6 +12,7 @@ import FAQ from './Pages/FAQ';
 import Sidebar from './component/Sidebar';
 import Batches from './component/Batches';
 import CourseDetailsPage from './Pages/CourseDetailsPage';
+import Mentors from './Pages/Mentors';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/faqs" element={<FAQ/>}/>
         <Route path="/batches" element={<Batches/>}/>
         <Route path="/courses" element={<CourseDetailsPage/>}/>
+        <Route path="/mentors" element={<Mentors/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

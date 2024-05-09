@@ -24,8 +24,10 @@ const Header = () => {
                 return "FAQ'S";
             case '/batches':
                 return "BATCHES";
-            case '/courses': 
-                 return "COURSES"
+            case '/courses':
+                return "COURSES"
+            case '/mentors':
+                return "MENTORS"
             default:
                 return 'undefined';
         }
