@@ -80,7 +80,7 @@ const CourseDetailsPage = () => {
             <div className='md:bg-gray-200 md:px-20 md:pb-10  py-10 md:py-0 px-5'>
                 <div className='flex flex-col lg:flex lg:flex-row justify-between bg-white md:p-10  md:border-2 md:border-yellow-200'>
                     <div className=' md:w-[100%] md:pr-10'>
-                        <h3 className='uppercase text-black font-bold text-4xl'>GRAPHIC DESIGN</h3>
+                        <h3 className='uppercase text-black font-bold text-4xl'>E-COMMERCE</h3>
                         <hr class="my-4 border-t-2 border-black" />
                         <div className='flex gap-2 md:gap-16 mt-10'>
                             <div className='flex flex-col gap-4 text-lg'>
@@ -93,7 +93,7 @@ const CourseDetailsPage = () => {
                             <div className='flex flex-col gap-4 text-lg font-semibold md:font-extrabold'>
                                 <p>8 weeks</p>
                                 <p>Beginner to Intermediate</p>
-                                <p>Arslan Khalid</p>
+                                <p>Ahmed Butt</p>
                                 <p>Basic computer skills</p>
                                 <p><span className='line-through text-lg font-light'>25,000 RS</span> <span className='text-2xl ml-3'>10,000 RS:</span></p>
                             </div>
@@ -128,7 +128,211 @@ const CourseDetailsPage = () => {
                     </div>
                 </div>
             </div>
-            
+            <div className='md:bg-gray-200 md:px-20 md:pb-10  py-10 md:py-0 px-5'>
+                <div className='flex flex-col lg:flex lg:flex-row justify-between bg-white md:p-10  md:border-2 md:border-yellow-200'>
+                    <div className=' md:w-[100%] md:pr-10'>
+                        <h3 className='uppercase text-black font-bold text-4xl'>DIGITAL MARKETING</h3>
+                        <hr class="my-4 border-t-2 border-black" />
+                        <div className='flex gap-2 md:gap-16 mt-10'>
+                            <div className='flex flex-col gap-4 text-lg'>
+                                <p>Duration</p>
+                                <p>Skill Level:</p>
+                                <p className='custom-class-320'>Instructor: </p>
+                                <p>Requirements: </p>
+                                <p className=' custom-class-320'>Course Fee:</p>
+                            </div>
+                            <div className='flex flex-col gap-4 text-lg font-semibold md:font-extrabold'>
+                                <p>8 weeks</p>
+                                <p>Beginner to Intermediate</p>
+                                <p>M Usama</p>
+                                <p>Basic computer skills</p>
+                                <p><span className='line-through text-lg font-light'>25,000 RS</span> <span className='text-2xl ml-3'>10,000 RS:</span></p>
+                            </div>
+                        </div>
+                        <div className='pt-10 flex justify-center md:block'>
+                            <Link to='/payment'>
+                                <button className='bg-yellow-400 px-12 py-3 text-[#000] font-semibold text-xl uppercase rounded-full'>apply now</button>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className='flex lg:mt-[-56px] justify-center md:block '>
+                        <div className='mt-16 md:w-80'>
+                            <div className='bg-blue-500 lg:w-80 h-72'></div>
+                            <div className='bg-blue-600 py-3 mt-2 px-5 md:px-0'>
+                                <div className='flex justify-center items-center mt-2'>
+                                    <div>
+                                        <h5 className='font-bold text-xl text-white mr-2'>Star Rating:</h5>
+                                    </div>
+                                    <div className='flex text-yellow-300 text-2xl'>
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                    </div>
+                                </div>
+                                <div className='text-center'>
+                                    <h5 className='text-white text-lg font-semibold'>(based on 100+ reviews)</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='md:bg-gray-200 md:px-20 md:pb-10  py-10 md:py-0 px-5'>
+                <div className='flex flex-col lg:flex lg:flex-row justify-between bg-white md:p-10  md:border-2 md:border-yellow-200'>
+                    <div className=' md:w-[100%] md:pr-10'>
+                        <h3 className='uppercase text-black font-bold text-4xl'>APP DEVELOPMENT</h3>
+                        <hr class="my-4 border-t-2 border-black" />
+                        <div className='flex gap-2 md:gap-16 mt-10'>
+                            <div className='flex flex-col gap-4 text-lg'>
+                                <p>Duration</p>
+                                <p>Skill Level:</p>
+                                <p className='custom-class-320'>Instructor: </p>
+                                <p>Requirements: </p>
+                                <p className=' custom-class-320'>Course Fee:</p>
+                            </div>
+                            <div className='flex flex-col gap-4 text-lg font-semibold md:font-extrabold'>
+                                <p>8 weeks</p>
+                                <p>Beginner to Intermediate</p>
+                                <p>Hassan Raza</p>
+                                <p>Basic computer skills</p>
+                                <p><span className='line-through text-lg font-light'>25,000 RS</span> <span className='text-2xl ml-3'>10,000 RS:</span></p>
+                            </div>
+                        </div>
+                        <div className='pt-10 flex justify-center md:block'>
+                            <Link to='/payment'>
+                                <button className='bg-yellow-400 px-12 py-3 text-[#000] font-semibold text-xl uppercase rounded-full'>apply now</button>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className='flex lg:mt-[-56px] justify-center md:block '>
+                        <div className='mt-16 md:w-80'>
+                            <div className='bg-blue-500 lg:w-80 h-72'></div>
+                            <div className='bg-blue-600 py-3 mt-2 px-5 md:px-0'>
+                                <div className='flex justify-center items-center mt-2'>
+                                    <div>
+                                        <h5 className='font-bold text-xl text-white mr-2'>Star Rating:</h5>
+                                    </div>
+                                    <div className='flex text-yellow-300 text-2xl'>
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                    </div>
+                                </div>
+                                <div className='text-center'>
+                                    <h5 className='text-white text-lg font-semibold'>(based on 100+ reviews)</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='md:bg-gray-200 md:px-20 md:pb-10  py-10 md:py-0 px-5'>
+                <div className='flex flex-col lg:flex lg:flex-row justify-between bg-white md:p-10  md:border-2 md:border-yellow-200'>
+                    <div className=' md:w-[100%] md:pr-10'>
+                        <h3 className='uppercase text-black font-bold text-4xl'>WEB DEVELOPMENT</h3>
+                        <hr class="my-4 border-t-2 border-black" />
+                        <div className='flex gap-2 md:gap-16 mt-10'>
+                            <div className='flex flex-col gap-4 text-lg'>
+                                <p>Duration</p>
+                                <p>Skill Level:</p>
+                                <p className='custom-class-320'>Instructor: </p>
+                                <p>Requirements: </p>
+                                <p className=' custom-class-320'>Course Fee:</p>
+                            </div>
+                            <div className='flex flex-col gap-4 text-lg font-semibold md:font-extrabold'>
+                                <p>8 weeks</p>
+                                <p>Beginner to Intermediate</p>
+                                <p>Muzamil Hassan</p>
+                                <p>Basic computer skills</p>
+                                <p><span className='line-through text-lg font-light'>25,000 RS</span> <span className='text-2xl ml-3'>10,000 RS:</span></p>
+                            </div>
+                        </div>
+                        <div className='pt-10 flex justify-center md:block'>
+                            <Link to='/payment'>
+                                <button className='bg-yellow-400 px-12 py-3 text-[#000] font-semibold text-xl uppercase rounded-full'>apply now</button>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className='flex lg:mt-[-56px] justify-center md:block '>
+                        <div className='mt-16 md:w-80'>
+                            <div className='bg-blue-500 lg:w-80 h-72'></div>
+                            <div className='bg-blue-600 py-3 mt-2 px-5 md:px-0'>
+                                <div className='flex justify-center items-center mt-2'>
+                                    <div>
+                                        <h5 className='font-bold text-xl text-white mr-2'>Star Rating:</h5>
+                                    </div>
+                                    <div className='flex text-yellow-300 text-2xl'>
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                    </div>
+                                </div>
+                                <div className='text-center'>
+                                    <h5 className='text-white text-lg font-semibold'>(based on 100+ reviews)</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='md:bg-gray-200 md:px-20 md:pb-10  py-10 md:py-0 px-5'>
+                <div className='flex flex-col lg:flex lg:flex-row justify-between bg-white md:p-10  md:border-2 md:border-yellow-200'>
+                    <div className=' md:w-[100%] md:pr-10'>
+                        <h3 className='uppercase text-black font-bold text-4xl'>3D MODELING</h3>
+                        <hr class="my-4 border-t-2 border-black" />
+                        <div className='flex gap-2 md:gap-16 mt-10'>
+                            <div className='flex flex-col gap-4 text-lg'>
+                                <p>Duration</p>
+                                <p>Skill Level:</p>
+                                <p className='custom-class-320'>Instructor: </p>
+                                <p>Requirements: </p>
+                                <p className=' custom-class-320'>Course Fee:</p>
+                            </div>
+                            <div className='flex flex-col gap-4 text-lg font-semibold md:font-extrabold'>
+                                <p>8 weeks</p>
+                                <p>Beginner to Intermediate</p>
+                                <p>Ahmed Butt</p>
+                                <p>Basic computer skills</p>
+                                <p><span className='line-through text-lg font-light'>25,000 RS</span> <span className='text-2xl ml-3'>10,000 RS:</span></p>
+                            </div>
+                        </div>
+                        <div className='pt-10 flex justify-center md:block'>
+                            <Link to='/payment'>
+                                <button className='bg-yellow-400 px-12 py-3 text-[#000] font-semibold text-xl uppercase rounded-full'>apply now</button>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className='flex lg:mt-[-56px] justify-center md:block '>
+                        <div className='mt-16 md:w-80'>
+                            <div className='bg-blue-500 lg:w-80 h-72'></div>
+                            <div className='bg-blue-600 py-3 mt-2 px-5 md:px-0'>
+                                <div className='flex justify-center items-center mt-2'>
+                                    <div>
+                                        <h5 className='font-bold text-xl text-white mr-2'>Star Rating:</h5>
+                                    </div>
+                                    <div className='flex text-yellow-300 text-2xl'>
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                        <IoMdStar />
+                                    </div>
+                                </div>
+                                <div className='text-center'>
+                                    <h5 className='text-white text-lg font-semibold'>(based on 100+ reviews)</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </>
     )
 }
