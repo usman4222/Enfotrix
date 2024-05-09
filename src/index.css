@@ -137,3 +137,10 @@
   }
 }
 
+@media (max-width: 320px) {
+  .custom-class-320 {
+    /* Your custom styles for screens up to 320px wide */
+    /* For example: */
+    margin-top: 27px;
+  }
+}
