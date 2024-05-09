@@ -11,6 +11,7 @@ import Main from "./component/Main"
 import FAQ from './Pages/FAQ';
 import Sidebar from './component/Sidebar';
 import Batches from './component/Batches';
+import CourseDetailsPage from './Pages/CourseDetailsPage';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/payment" element={<PaymentProcess/>}/>
         <Route path="/faqs" element={<FAQ/>}/>
         <Route path="/batches" element={<Batches/>}/>
+        <Route path="/courses" element={<CourseDetailsPage/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

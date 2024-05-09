@@ -24,6 +24,8 @@ const Header = () => {
                 return "FAQ'S";
             case '/batches':
                 return "BATCHES";
+            case '/courses': 
+                 return "COURSES"
             default:
                 return 'undefined';
         }
