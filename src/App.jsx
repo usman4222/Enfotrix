@@ -12,6 +12,7 @@ import FAQ from './Pages/FAQ';
 import Batches from './component/Batches';
 import CourseDetailsPage from './Pages/CourseDetailsPage';
 import Mentors from './Pages/Mentors';
+import NotFound from './Pages/NotFound';
 
 
 function App() {
