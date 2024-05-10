@@ -50,7 +50,7 @@ const Mentors = () => {
                 <div className=' lg:w-[350px] md:w-[300px] w-[250px] bg-gray-100   lg:h-96  flex flex-col  items-center  lg:justify-center border'>
                     <FaUser className=' lg:w-40 w-full text-center lg:h-80 h-40 px-4 py-4' />
                     <div className=' justify-start lg:w-full text-center w-full  lg:text-center py-4 bg-gray-500 '>
-                        <h1 className='font-bold lg:text-xl text-sm  text-md  '>MUHAMMAD AHMED  </h1>
+                        <h1 className='font-bold lg:text-xl text-sm  text-md  '>M AHMED  </h1>
                         <p className='font-semibold lg:text-lg text-sm text-md'>TRAINER(3d-modler)</p>
                     </div>
                 </div>
