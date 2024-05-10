@@ -30,6 +30,7 @@ function App() {
         <Route path="/batches" element={<Batches/>}/>
         <Route path="/courses" element={<CourseDetailsPage/>}/>
         <Route path="/mentors" element={<Mentors/>}/>
+        <Route path="/*" element={<NotFound/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>
