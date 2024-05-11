@@ -33,7 +33,7 @@ const Footer = () => {
                     <div className='flex justify-center pb-10 md:block md:pb-0'>
                         <img src={logo} className='object-cover w-48 filter invert' alt="Logo" />
                     </div>
-                    <div className='flex justify-center items-center gap-10 text-2xl text-[#f2f2f2]'>
+                    <div className='flex justify-center items-center gap-6 md:gap-10 text-2xl text-[#f2f2f2]'>
                         <Link>
                             <FaPhone />
                         </Link>
@@ -54,7 +54,7 @@ const Footer = () => {
                 <div className='h-[2px] w-full bg-[#f2f2f2]'></div>
                 <div className='flex md:flex-row text-[#f2f2f2] mt-16 md:mt-0 lg:py-28 lg:px-16 md:px-10  md:py-14 md:gap-10  absolute justify-between w-[100%] flex-col gap-5'  >
                     <div className='w-auto md:w-[300px]'>
-                        <h6 className='text-center ml-2 px-12 md:px-0 md:text-left md:ml-0'>
+                        <h6 className='text-center ml-2 px-10 md:px-0 md:text-left md:ml-0'>
                             ENFOTRIX, A LEADING IT AND SOFTWARE
                             DEVELOPMENT FIRM, EMPOWERS
                             INDIVIDUALS THROUGH CUTTING-EDGE
