@@ -13,6 +13,7 @@ import Batches from './component/Batches';
 import CourseDetailsPage from './Pages/CourseDetailsPage';
 import Mentors from './Pages/Mentors';
 import NotFound from './Pages/NotFound';
+import IntakeForm from './component/IntakeForm';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path="/batches" element={<Batches/>}/>
         <Route path="/courses" element={<CourseDetailsPage/>}/>
         <Route path="/mentors" element={<Mentors/>}/>
+        <Route path="/student-info" element={<IntakeForm/>}/>
         <Route path="/*" element={<NotFound/>}/>
       </Routes>
       <Footer />

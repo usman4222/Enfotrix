@@ -129,7 +129,7 @@ const PaymentProcess = () => {
                             </div>
                         </div>
                         <div className='flex flex-col items-center md:flex-row md:justify-between pl-4 md:pl-0 py-6 md:py-12'>
-                            <Link to='/student-intake'>
+                            <Link to='/student-info'>
                                 <button className=' px-10 py-3 text-[#414042] font-bold text-lg uppercase rounded-full'>Back</button>
                             </Link>
                             <Link to='#'>

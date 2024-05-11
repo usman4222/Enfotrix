@@ -60,7 +60,7 @@ const StudentIntake = () => {
                         <Link to='/graphic-design'>
                             <button className='mb-10 md:mb-0  px-20 py-3 md:py-3 text-[#414042] font-bold text-xl uppercase rounded-full'>back</button>
                         </Link>
-                        <Link to='/payment'>
+                        <Link to='/student-info'>
                             <button className='bg-[#0047ab] px-20 py-3 text-[#f2f2f2] font-bold text-xl uppercase rounded-full'>Next</button>
                         </Link>
                     </div>
