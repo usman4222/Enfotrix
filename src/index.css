@@ -139,8 +139,48 @@
 
 @media (max-width: 320px) {
   .custom-class-320 {
-    /* Your custom styles for screens up to 320px wide */
-    /* For example: */
     margin-top: 27px;
+  }
+}
+
+@media (width: 320px) {
+  .allicons{
+    margin-right: -90px;
+  }
+}
+
+@media (width: 375px) {
+  .allicons{
+    margin-right: -120px;
+  }
+}
+
+@media (width: 425px) {
+  .allicons{
+    margin-right: -150px;
+  }
+}
+
+@media (width: 768px) {
+  .allicons{
+    margin-right: -50px;
+  }
+}
+
+@media (width: 1024px) {
+  .allicons{
+    margin-right: -60px;
+  }
+}
+
+@media (width: 1440px) {
+  .allicons{
+    margin-right: 15px;
+  }
+}
+
+@media (width: 2560px) {
+  .allicons{
+    margin-right: 240px;
   }
 }

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import course from "../assets/course.jpg";
 import { Link } from "react-router-dom";
 import { IoLocationSharp } from "react-icons/io5";
@@ -14,9 +14,17 @@ import Reviews from "./Reviews";
 import DemoCards from "./DemoCards";
 import Performance from "./Performance";
 import Side from "./Side";
+import icon1 from '../assets/Icons-04.png'
+import icon2 from '../assets/Icons-05.png'
+import icon3 from '../assets/Icons-06.png'
+import icon4 from '../assets/Icons-07.png'
+import icon5 from '../assets/Icons-08.png'
+import icon6 from '../assets/Icons-09.png'
 
 
 const Main = () => {
+
+    const [showIcons, setShowIcons] = useState(false);
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -27,9 +35,9 @@ const Main = () => {
             <>
                 <div className='flex'>
                     <Side />
-                    <div className='w-full'>
-                        <div className='flex justify-center md:block items-center bg-[#0047ab]'>
-                            <div className=" bg-[#0047ab] flex-cols md:flex md:flex-row justify-center items-center md:justify-evenly py-32 md:py-48">
+                    <div className='w-full '>
+                        <div className='flex justify-center relative md:block items-center bg-[#0047ab]'>
+                            <div className=" bg-[#0047ab]  flex-cols md:flex md:flex-row justify-center items-center md:justify-evenly py-32 md:py-48">
                                 <div className='text-white mb-10 md:mb-0 text-4xl md:text-5xl font-extrabold'>
                                     <p>2,000+</p>
                                     <p>Candidates</p>
@@ -39,6 +47,32 @@ const Main = () => {
                                     <p>5+</p>
                                     <p>Years Of</p>
                                     <p>Experience</p>
+                                </div>
+                            </div>
+                            <div className="flex justify-end pr-28">
+                                <div className="flex flex-col gap-2 absolute top-72 allicons ">
+                                    {showIcons && (
+                                        <>
+                                            <Link>
+                                                <img src={icon6} alt="phone" className="w-7 transition-all duration-500" />
+                                            </Link>
+                                            <Link>
+                                                <img src={icon5} alt="whatsapp" className="w-7 transition-all duration-500" />
+                                            </Link>
+                                            <Link>
+                                                <img src={icon4} alt="facebook" className="w-7 transition-all duration-500" />
+                                            </Link>
+                                            <Link>
+                                                <img src={icon3} alt="insta" className="w-7 transition-all duration-500" />
+                                            </Link>
+                                            <Link>
+                                                <img src={icon2} alt="linkedin" className="w-7 transition-all duration-500" />
+                                            </Link>
+                                            <Link>
+                                                <img src={icon1} alt="location" className="w-7 transition-all duration-500" />
+                                            </Link>
+                                        </>
+                                    )}
                                 </div>
                             </div>
                         </div>
@@ -57,9 +91,9 @@ const Main = () => {
                                     <div><FaPhoneAlt className="text-xl text-[#414042] mr-2" /></div>
                                     <p className="text-[#414042] text-xl md:text-sm font-bold">+92 315 5658095</p>
                                 </div>
-                                <div className='bg-white p-5 rounded-tl-[50px] rounded-tr-[50px] mt-5 md:mt-0'>
-                                    <div className='bg-[#0047ab] flex justify-center items-center  p-5 rounded-full'>
-                                        <FaPlus className=" text-[#f2f2f2] text-3xl" />
+                                <div className='bg-white p-5 cursor-pointer rounded-tl-[50px] rounded-tr-[50px] mt-5 md:mt-0'>
+                                    <div className={`bg-[#0047ab] flex justify-center items-center  p-5 rounded-full ${showIcons ? 'bg-opacity-50' : ''}`} onClick={() => setShowIcons(!showIcons)}>
+                                        <FaPlus className="text-[#f2f2f2] text-3xl" />
                                     </div>
                                 </div>
                             </div>
