@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import logo from '../assets/Logo-01.png'
 import { IoIosArrowUp } from "react-icons/io";
 import footerImg from '../assets/Footer Back Image-01.png'
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
 
@@ -31,22 +33,22 @@ const Footer = () => {
                     <div className='flex justify-center pb-10 md:block md:pb-0'>
                         <img src={logo} className='object-cover w-48 filter invert' alt="Logo" />
                     </div>
-                    <div className='flex justify-center items-center gap-6 text-2xl text-[#f2f2f2]'>
-                        <span>
+                    <div className='flex justify-center items-center gap-10 text-2xl text-[#f2f2f2]'>
+                        <Link>
                             <FaPhone />
-                        </span>
-                        <span>
+                        </Link>
+                        <Link>
                             <FaWhatsapp />
-                        </span>
-                        <span>
-                            <FaFacebook />
-                        </span>
-                        <span>
-                            <FaLinkedinIn />
-                        </span>
-                        <span>
+                        </Link>
+                        <Link>
+                            <FaFacebookF />
+                        </Link>
+                        <Link>
                             <FaInstagram />
-                        </span>
+                        </Link>
+                        <Link>
+                            <FaLinkedinIn />
+                        </Link>
                     </div>
                 </div>
                 <div className='h-[2px] w-full bg-[#f2f2f2]'></div>
