@@ -1,15 +1,22 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import person from '../assets/Support Icon-01.png'
 import Side from './Side'
 import { Link } from 'react-router-dom'
 import RefundPolicy from './RefundPolicy'
+import Modal from './Modal'
 
 const IntakeForm = () => {
 
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    const openModal = () => {
+        setIsModalOpen(true);
+    };
+
 
     return (
         <>
@@ -93,9 +100,11 @@ const IntakeForm = () => {
                         <div className="flex justify-center">
                             <button className='bg-[#f2f2f2] px-6 py-3 text-[#414042] font-bold text-lg uppercase rounded-full md:px-10'>contact support</button>
                         </div>
+                        <button onClick={openModal} className='lg:hidden md:block fixed bottom-20 z-50 right-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 '>Refund Policy</button>
                     </div>
                 </div>
             </div>
+            {isModalOpen && <Modal onClose={() => setIsModalOpen(false)} />}
         </>
     )
 }

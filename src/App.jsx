@@ -14,6 +14,7 @@ import CourseDetailsPage from './Pages/CourseDetailsPage';
 import Mentors from './Pages/Mentors';
 import NotFound from './Pages/NotFound';
 import IntakeForm from './component/IntakeForm';
+import Modal from './component/Modal';
 
 
 function App() {
