@@ -12,6 +12,9 @@ export default {
       colors: {
         'yellow-dark': '#EB9600',
       },
+      fontFamily: {
+        'sans': ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
