@@ -10,8 +10,8 @@ const Side = () => {
   }, [location]);
 
   return (
-    <div className="hidden lg:inline-block bg-white w-[280px] pl-16 mt-2">
-      <ul className="flex flex-col gap-4 mt-20 ">
+    <div className="hidden lg:inline-block bg-[#414042] w-[280px] pl-16 pb-20">
+      <ul className="flex flex-col gap-4 mt-20 text-[#f2f2f2]">
         <li>
           <Link 
             to="/" 
@@ -71,7 +71,7 @@ const Side = () => {
         <li>
           <Link 
             to="/jobs" 
-            className={`hover:underline text-sm uppercase ${activeLink === '/jobs' && 'text-yellow-500'}`}
+            className={`hover:underline text-sm mr-5 uppercase ${activeLink === '/jobs' && 'text-yellow-500'}`}
           >
             jobs / internships portal
           </Link>

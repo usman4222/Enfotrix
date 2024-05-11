@@ -81,19 +81,19 @@ const Main = () => {
                             </div>
                         </div>
                         <div className='flex md:block justify-center bg-[#ffba21]'>
-                            <div className="bg-[#ffba21] flex-cols md:flex md:flex-row md:justify-evenly items-center">
+                            <div className="bg-[#ffba21] flex-cols md:flex md:flex-row md:justify-evenly ">
                                 <div className="flex items-center py-5">
-                                    <div><img src={icon7} alt="location" className="w-8 mr-5" /></div>
+                                    <div className="pb-5 md:pb-4 xl:pb-0"><img src={icon7} alt="location" className="xl:w-8 w-5 pr-2 xl:mr-5 " /></div>
                                     <p className="text-[#414042] font-semibold md:text-sm ">Enfotrix (Pvt.)Ltd Main zafarullah<br />
                                         chowk, Sargodha</p>
                                 </div>
                                 <div className="flex items-center py-5">
-                                    <div><img src={icon8} alt="location" className="w-5 mr-5" /></div>
+                                    <div><img src={icon8} alt="location" className="w-5 pr-2 xl:mr-5" /></div>
                                     <p className="text-[#414042] lg:text-lg md:text-sm font-semibold">contact@Enfotrix.com</p>
                                 </div>
                                 <div className="flex items-center py-5">
-                                    <div><img src={icon9} alt="location" className="w-5 mr-5" /></div>
-                                    <p className="text-[#414042] text-xl md:text-sm lg:text-xl font-extrabold">+92 315 5658095</p>
+                                    <div><img src={icon9} alt="location" className="w-5 pr-2 xl:mr-5" /></div>
+                                    <p className="text-[#414042] text-xl md:text-sm xl:text-xl font-extrabold">+92 315 5658095</p>
                                 </div>
                                 <div className='bg-white p-5 cursor-pointer rounded-tl-[50px] rounded-tr-[50px] mt-5 md:mt-0'>
                                     <div className={`bg-[#0047ab] flex justify-center items-center  p-5 rounded-full ${showIcons ? 'bg-opacity-50' : ''}`} onClick={() => setShowIcons(!showIcons)}>

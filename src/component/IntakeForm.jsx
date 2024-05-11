@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import person from '../assets/Support Icon-01.png'
 import Side from './Side'
 import { Link } from 'react-router-dom'
+import RefundPolicy from './RefundPolicy'
 
 const IntakeForm = () => {
 
@@ -13,7 +14,10 @@ const IntakeForm = () => {
     return (
         <>
             <div className='flex'>
-                <Side />
+                <div className='flex flex-col'>
+                    <Side />
+                    <RefundPolicy />
+                </div>
                 <div className='w-full'>
                     <div>
                         <h2 className='text-center font-bold text-[#414042] text-4xl uppercase px-3 md:px-0 py-5'>Student Intake</h2>
@@ -33,6 +37,10 @@ const IntakeForm = () => {
                         <div className='mt-2'>
                             <h4 className='font-bold text-sm uppercase py-3'>your email*</h4>
                             <input type="text" name="" className='bg-[#f2f2f2] w-full py-2 focus:ring-0 focus:outline-none pl-5' placeholder='Enter Your Email Adress here' id="" />
+                        </div>
+                        <div className='mt-2'>
+                            <h4 className='font-bold text-sm uppercase py-3'>city*</h4>
+                            <input type="text" name="" className='bg-[#f2f2f2] w-full py-2 focus:ring-0 focus:outline-none pl-5' placeholder='Enter Your City' id="" />
                         </div>
                         <div className='mt-2'>
                             <h4 className='font-bold text-sm uppercase py-3'>whatsapp number*</h4>
