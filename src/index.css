@@ -128,6 +128,8 @@
   border-radius: 50%;
 }
 
+
+
 @keyframes thickening {
   from {
     border-width: 0.2em;
@@ -144,8 +146,14 @@
 }
 
 @media (width: 320px) {
+  .main{
+    padding-left: 50px;
+  }
+}
+
+@media (width: 320px) {
   .allicons{
-    margin-right: -90px;
+    margin-right: -70px;
   }
 }
 

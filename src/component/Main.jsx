@@ -37,7 +37,7 @@ const Main = () => {
                     <Side />
                     <div className='w-full '>
                         <div className='flex justify-center relative md:block items-center bg-[#0047ab]'>
-                            <div className=" bg-[#0047ab]  flex-cols md:flex md:flex-row justify-center items-center md:justify-evenly py-32 md:py-48">
+                            <div className=" bg-[#0047ab] main flex-cols md:flex md:flex-row justify-center items-center md:justify-evenly py-32 md:py-48">
                                 <div className='text-white mb-10 md:mb-0 text-4xl md:text-5xl font-extrabold'>
                                     <p>2,000+</p>
                                     <p>Candidates</p>
