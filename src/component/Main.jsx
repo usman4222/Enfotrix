@@ -20,6 +20,10 @@ import icon3 from '../assets/Icons-06.png'
 import icon4 from '../assets/Icons-07.png'
 import icon5 from '../assets/Icons-08.png'
 import icon6 from '../assets/Icons-09.png'
+import icon7 from '../assets/Icons-01.png'
+import icon8 from '../assets/Icons-02.png'
+import icon9 from '../assets/Icons-03.png'
+import NoticeSection from "./NoticeSection";
 
 
 const Main = () => {
@@ -79,17 +83,17 @@ const Main = () => {
                         <div className='flex md:block justify-center bg-[#ffba21]'>
                             <div className="bg-[#ffba21] flex-cols md:flex md:flex-row md:justify-evenly items-center">
                                 <div className="flex items-center py-5">
-                                    <div><IoLocationSharp className="lg:text-6xl md:text-3xl mr-2 text-2xl text-[#414042]" /></div>
+                                    <div><img src={icon7} alt="location" className="w-8 mr-5" /></div>
                                     <p className="text-[#414042] font-semibold md:text-sm ">Enfotrix (Pvt.)Ltd Main zafarullah<br />
                                         chowk, Sargodha</p>
                                 </div>
                                 <div className="flex items-center py-5">
-                                    <div><BiLogoGmail className="text-xl text-[#414042] mr-2" /></div>
-                                    <p className="text-[#414042] lg:text-xl md:text-sm font-semibold">contact@Enfotrix.com</p>
+                                    <div><img src={icon8} alt="location" className="w-5 mr-5" /></div>
+                                    <p className="text-[#414042] lg:text-lg md:text-sm font-semibold">contact@Enfotrix.com</p>
                                 </div>
                                 <div className="flex items-center py-5">
-                                    <div><FaPhoneAlt className="text-xl text-[#414042] mr-2" /></div>
-                                    <p className="text-[#414042] text-xl md:text-sm font-bold">+92 315 5658095</p>
+                                    <div><img src={icon9} alt="location" className="w-5 mr-5" /></div>
+                                    <p className="text-[#414042] text-xl md:text-sm lg:text-xl font-extrabold">+92 315 5658095</p>
                                 </div>
                                 <div className='bg-white p-5 cursor-pointer rounded-tl-[50px] rounded-tr-[50px] mt-5 md:mt-0'>
                                     <div className={`bg-[#0047ab] flex justify-center items-center  p-5 rounded-full ${showIcons ? 'bg-opacity-50' : ''}`} onClick={() => setShowIcons(!showIcons)}>
@@ -102,6 +106,7 @@ const Main = () => {
                 </div>
             </>
             <Companies />
+            <NoticeSection/>
             <SkillSec />
             <OnlinePlateForm />
             <ImageGrid />

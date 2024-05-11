@@ -40,18 +40,16 @@ const ImageGrid = () => {
                 </div>
             </div>
             <div className='grid grid-cols-12 grid-rows-5 md:grid-rows-2 gap-y-2 mt-2 gap-x-2'>
-                <div className='md:col-span-4 col-span-12 row-span-2 bg-orange-600 max-h-[400px]'>
-                    <img
-                        src='https://picsum.photos/200/300'
-                        className='w-full h-full  bg-cover bg-center'
-                        alt=''
-                    />
+                <div className='md:col-span-4 col-span-12 row-span-2 py-32  max-h-[400px]'>
+                    <p className='text-center text-[#414042]'>Unlock Your Potential with <br /> Enfotrix's Top Offerings</p>
                 </div>
-                <div className='md:col-span-4 col-span-12 row-span-2 bg-red-500 flex justify-center items-center'>
-                    <h2 className='text-white'>Hllo ther</h2>
+                <div className='md:col-span-4 col-span-12 row-span-2 bg-[#0047AB] flex justify-center items-center'>
+                    <h2 className='text-white text-center text-4xl font-bold'>VOICES OF SUCCESS</h2>
                 </div>
-                <div className='md:col-span-4 col-span-12 row-span-2 bg-blue-600 flex justify-center items-center text-white '>
-                    <h1 className='text-5xl'>Hello WOrld</h1>
+                <div className='md:col-span-4 col-span-12 row-span-2 flex justify-center items-center'>
+                    <div>
+                        <p className='text-left text-[#414042]'>Inspiring Testimonials <br /> Student Feedback <br /> Success Stories Shared <br /> Experiences</p>
+                    </div>
                 </div>
             </div>
         </>
