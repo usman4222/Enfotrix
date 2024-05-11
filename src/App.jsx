@@ -9,7 +9,6 @@ import PaymentProcess from "./component/PaymentProcess"
 import About from "./component/About"
 import Main from "./component/Main"
 import FAQ from './Pages/FAQ';
-import Sidebar from './component/Sidebar';
 import Batches from './component/Batches';
 import CourseDetailsPage from './Pages/CourseDetailsPage';
 import Mentors from './Pages/Mentors';

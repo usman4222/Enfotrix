@@ -1,7 +1,7 @@
 import React from "react";
 import course from "../assets/course.jpg";
 import { Link } from "react-router-dom";
-import Sidebar from "./Sidebar";
+import Sidebar from "./Side";
 import Side from "./Side";
 
 const Apply = () => {

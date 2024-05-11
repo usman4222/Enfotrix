@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Main from './Main'
-import Sidebar from './Sidebar'
+import Sidebar from './Side'
 import Side from './Side';
 
 const About = () => {
