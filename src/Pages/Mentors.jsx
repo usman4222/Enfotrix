@@ -125,7 +125,7 @@ const Mentors = () => {
                             <div className='flex justify-center items-center'>
                                 <img src={user} alt="user" className='h-72' />
                             </div>
-                            <div className='lg:pl-10 text-center py-6 bg-[#404142]'>
+                            <div className='lg:pl-10 lg:text-left text-center py-6 bg-[#404142]'>
                                 <h1 className='font-normal text-[#f2f2f2] '>MUHAMMAD AHMED  </h1>
                                 <p className='text-[12px] uppercase text-[#f2f2f2]'>TRAINER(3d-modler)</p>
                             </div>
@@ -134,7 +134,7 @@ const Mentors = () => {
                             <div className='flex justify-center items-center'>
                                 <img src={user} alt="user" className='h-72' />
                             </div>
-                            <div className='lg:pl-10 text-center py-6 bg-[#fff]'>
+                            <div className='lg:pl-10 lg:text-left text-center py-6 bg-[#fff]'>
                                 <h1 className='font-normal text-[#404142] '>MUHAMMAD USAMA  </h1>
                                 <p className='text-[12px] uppercase text-[#404142]'>TRAINER (DIGITAL MARKETING)</p>
                             </div>
@@ -143,7 +143,7 @@ const Mentors = () => {
                             <div className='flex justify-center items-center'>
                                 <img src={user} alt="user" className='h-72' />
                             </div>
-                            <div className='lg:pl-10 text-center py-6 bg-[#404142]'>
+                            <div className='lg:pl-10 lg:text-left text-center py-6 bg-[#404142]'>
                                 <h1 className='font-normal text-[#f2f2f2] '>ZAFAR  </h1>
                                 <p className='text-[12px] uppercase text-[#f2f2f2]'>TRAINER (GRAPHIC DESIGN)</p>
                             </div>
@@ -152,7 +152,7 @@ const Mentors = () => {
                             <div className='flex justify-center items-center'>
                                 <img src={user} alt="user" className='h-72' />
                             </div>
-                            <div className='lg:pl-10 text-center py-6 bg-[#fff]'>
+                            <div className='lg:pl-10 lg:text-left text-center py-6 bg-[#fff]'>
                                 <h1 className='font-normal text-[#404142] '>HASSAN RAZA </h1>
                                 <p className='text-[12px] uppercase text-[#404142]'>TRAINER (WEB DEVELOPMENT)</p>
                             </div>
@@ -161,7 +161,7 @@ const Mentors = () => {
                             <div className='flex justify-center items-center'>
                                 <img src={user} alt="user" className='h-72' />
                             </div>
-                            <div className='lg:pl-10 text-center py-6 bg-[#404142]'>
+                            <div className='lg:pl-10 lg:text-left text-center py-6 bg-[#404142]'>
                                 <h1 className='font-normal text-[#f2f2f2] '>MUZAMIL </h1>
                                 <p className='text-[12px] uppercase text-[#f2f2f2]'>TRAINER (ANDROID DEVELOPMENT)</p>
                             </div>
@@ -170,7 +170,7 @@ const Mentors = () => {
                             <div className='flex justify-center items-center'>
                                 <img src={user} alt="user" className='h-72' />
                             </div>
-                            <div className='lg:pl-10 text-center py-6 bg-[#fff]'>
+                            <div className='lg:pl-10 lg:text-left text-center py-6 bg-[#fff]'>
                                 <h1 className='font-normal text-[#404142] '>HUSSAIN </h1>
                                 <p className='text-[12px] uppercasetext-[#404142]'>TRAINER (ANDROID DEVELOPMENT)</p>
                             </div>
@@ -179,7 +179,7 @@ const Mentors = () => {
                             <div className='flex justify-center items-center'>
                                 <img src={user} alt="user" className='h-72' />
                             </div>
-                            <div className='lg:pl-10 text-center py-6 bg-[#404142]'>
+                            <div className='lg:pl-10 lg:text-left text-center py-6 bg-[#404142]'>
                                 <h1 className='font-normal text-[#f2f2f2] '>ZUBAIR  </h1>
                                 <p className='text-[12px] uppercase text-[#f2f2f2]'>TRAINER (ANDROID DEVELOPMENT)</p>
                             </div>
@@ -188,7 +188,7 @@ const Mentors = () => {
                             <div className='flex justify-center items-center'>
                                 <img src={user} alt="user" className='h-72' />
                             </div>
-                            <div className='lg:pl-10 text-center py-6 bg-[#fff]'>
+                            <div className='lg:pl-10 lg:text-left text-center py-6 bg-[#fff]'>
                                 <h1 className='font-normal text-[#404142] '>ZEESHAN </h1>
                                 <p className='text-[12px] uppercase text-[#404142]'>TRAINER (VIDEO EDITING)</p>
                             </div>

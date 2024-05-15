@@ -8,9 +8,9 @@ const Batches = () => {
                 <div>
                     <Side />
                 </div>
-                <div className='w-full'>
+                <div className='w-full lg:px-10 px-0'>
                     <div className='py-10'>
-                        <h1 className='text-4xl font-bold p-5 md:p-0 text-[#414042]'>BATCH INFORMATION</h1>
+                        <h1 className='text-4xl font-bold p-5 text-center md:p-0 text-[#414042]'>BATCH INFORMATION</h1>
                     </div>
                     <div className='bg-[#414042] flex justify-between md:px-6 lg:px-28 py-8 px-5'>
                         <div>
