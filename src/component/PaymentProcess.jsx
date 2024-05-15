@@ -14,9 +14,9 @@ const PaymentProcess = () => {
                 <div>
                     <Side />
                 </div>
-                <div className='w-full'>
+                <div className='w-full px-10'>
                     <div>
-                        <h2 className='text-center font-bold text-[#414042] text-4xl uppercase px-3 md:px-0 py-5'>Student Intake</h2>
+                        <h2 className='text-center font-bold text-[#414042] text-4xl uppercase px-3 md:px-0 pb-5 pt-10'>Student Intake</h2>
                         <p className='text-center text-[#414042] space-x-2 uppercase'>Graphic designn batch II (online)</p>
                     </div>
                     <div className='py-5'>
@@ -44,7 +44,7 @@ const PaymentProcess = () => {
                             <h3 className='uppercase text-[#f2f2f2] font-bold py-5'>3421143231434123</h3>
                         </div>
                     </div>
-                    <div className='px-10'>
+                    <div>
                         <div className='mt-2'>
                             <h4 className='font-bold text-sm uppercase py-3'>choose a payment method</h4>
                             <select id="mySelect" class="bg-[#f2f2f2] text-gray-400 !important w-full py-2 focus:ring-0 focus:outline-none pl-5">

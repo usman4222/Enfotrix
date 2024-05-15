@@ -1,15 +1,14 @@
-
 @font-face {
   font-family: 'Poppins';
-  src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype'); 
-  font-weight: 400; 
+  src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: url('./assets//fonts/Poppins-Bold.ttf') format('truetype'); 
-  font-weight: 700; 
+  src: url('./assets//fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -19,7 +18,8 @@ body {
 
 @tailwind base;
 @tailwind components;
-@tailwind utilities;;
+@tailwind utilities;
+;
 
 
 .close-menu,
@@ -75,7 +75,7 @@ body {
     display: block;
   }
 
-  #check:checked ~ .menu {
+  #check:checked~.menu {
     right: 0;
   }
 }
@@ -90,8 +90,9 @@ body {
 } */
 
 @media (max-width: 640px) {
-  body > aside,
-  body > main {
+
+  body>aside,
+  body>main {
     grid-area: stack;
   }
 }
@@ -125,7 +126,7 @@ body {
     transition: transform var(--duration) var(--easeOutExpo);
   }
 
-  #sidenav-open:target ~ main {
+  #sidenav-open:target~main {
     filter: blur(0.5em);
     z-index: -1;
   }
@@ -151,6 +152,7 @@ body {
   from {
     border-width: 0.2em;
   }
+
   to {
     border-width: 1em;
   }
@@ -163,49 +165,50 @@ body {
 }
 
 @media (width: 320px) {
-  .main{
+  .main {
     padding-left: 50px;
   }
 }
 
 @media (max-width: 320px) {
-  .allicons{
+  .allicons {
     margin-right: -70px;
   }
 }
 
 @media (width: 375px) {
-  .allicons{
+  .allicons {
     margin-right: -120px;
   }
 }
 
 @media (width: 425px) {
-  .allicons{
+  .allicons {
     margin-right: -150px;
   }
 }
 
 @media (width: 768px) {
-  .allicons{
-    margin-right: -50px;
+  .allicons {
+    margin-right: -40px;
+    margin-top: 30px;
   }
 }
 
 @media (width: 1024px) {
-  .allicons{
-    margin-right: -60px;
+  .allicons {
+    margin-right: -40px;
   }
 }
 
 @media (width: 1440px) {
-  .allicons{
+  .allicons {
     margin-right: 15px;
   }
 }
 
 @media (width: 2560px) {
-  .allicons{
+  .allicons {
     margin-right: 240px;
   }
 }

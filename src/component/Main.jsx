@@ -41,7 +41,7 @@ const Main = () => {
                     <Side />
                     <div className='w-full '>
                         <div className='flex justify-center relative md:block items-center bg-[#0047ab]'>
-                            <div className=" bg-[#0047ab] main flex-cols md:flex md:flex-row justify-center items-center md:justify-evenly py-32 md:py-48">
+                            <div className=" bg-[#0047ab] main flex-cols md:flex md:flex-row justify-center items-center md:justify-evenly py-32 md:py-48 lg:py-44">
                                 <div className='text-white mb-10 md:mb-0 text-4xl md:text-5xl font-bold'>
                                     <p>2,000+</p>
                                     <p>Candidates</p>
@@ -53,8 +53,8 @@ const Main = () => {
                                     <p>Experience</p>
                                 </div>
                             </div>
-                            <div className="flex justify-end pr-28">
-                                <div className="flex flex-col gap-2 absolute top-72 allicons ">
+                            <div className="flex justify-end pr-[100px]">
+                                <div className="flex flex-col gap-2 absolute top-[260px] allicons">
                                     {showIcons && (
                                         <>
                                             <Link>

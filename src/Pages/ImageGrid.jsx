@@ -42,7 +42,7 @@ const ImageGrid = () => {
                         <p className="text-[#f2f2f2] font-semibold pl-10 pb-4">Workshop at University of Sargodha</p>
                     </div>
                 </div>
-                <div className='md:col-span-1 col-span-6 row-span-2  flex justify-center items-center'>
+                <div className='md:col-span-1 col-span-6 row-span-2 bg-red-100  flex justify-center items-center'>
                     <h2 className='text-white'>Hllo ther</h2>
                 </div>
                 <div className='md:col-span-1 col-span-6 row-span-1  max-h-[400px] relative'>
