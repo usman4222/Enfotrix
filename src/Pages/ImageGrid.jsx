@@ -10,7 +10,7 @@ const ImageGrid = () => {
     return (
         <>
             <div className='grid grid-cols-12 grid-rows-5 md:grid-rows-2 gap-y-2 '>
-                <div className='md:col-span-4 col-span-12 row-span-2 bg-orange-600 max-h-[400px]'>
+                <div className='md:col-span-4 col-span-12 row-span-2 max-h-[400px]'>
                     <img
                         src={img5}
                         className='w-full h-full  bg-cover bg-center'
@@ -19,7 +19,7 @@ const ImageGrid = () => {
                 </div>
                 <div className='md:col-span-5 col-span-12 row-span-2 bg-[#404142] flex flex-col justify-center'>
                     <div>
-                        <p className='text-[#f2f2f2] font-semibold px-16'>At Enfotrix, we're on a mission to inspire creativity and empower
+                        <p className='text-[#f2f2f2] font-semibold px-16 py-5'>At Enfotrix, we're on a mission to inspire creativity and empower
                             individuals to thrive in the digital world. Since 2019, we've been
                             offering top-notch courses, services, and solutions in technology
                             and design. With a focus on excellence, creativity, and continuous
@@ -36,20 +36,32 @@ const ImageGrid = () => {
                 </div>
             </div>
             <div className='grid grid-cols-12 md:grid-cols-3 md:grid-rows-2 grid-rows-6 gap-y-2 mt-2 gap-x-2'>
-                <div className='md:col-span-1 col-span-6 row-span-1 bg-orange-600 max-h-[400px]'>
+                <div className='md:col-span-1 col-span-6 row-span-1  max-h-[400px] relative'>
                     <img src={img1} alt="user" />
+                    <div className="absolute inset-0 bg-gradient-to-b from-white to-black opacity-50 flex justify-left items-end">
+                        <p className="text-[#f2f2f2] font-semibold pl-10 pb-4">Workshop at University of Sargodha</p>
+                    </div>
                 </div>
-                <div className='md:col-span-1 col-span-6 row-span-2 bg-red-500 flex justify-center items-center'>
+                <div className='md:col-span-1 col-span-6 row-span-2  flex justify-center items-center'>
                     <h2 className='text-white'>Hllo ther</h2>
                 </div>
-                <div className='md:col-span-1 col-span-6 row-span-1 bg-blue-600 flex justify-center items-center text-white '>
+                <div className='md:col-span-1 col-span-6 row-span-1  max-h-[400px] relative'>
                     <img src={img2} alt="user" />
+                    <div className="absolute inset-0 bg-gradient-to-b from-white to-black opacity-50 flex justify-left items-end">
+                        <p className="text-[#f2f2f2] font-semibold pl-10 pb-4">Birthday Celebration</p>
+                    </div>
                 </div>
-                <div className='md:col-span-1 col-span-6 row-span-1 bg-blue-600 flex justify-center items-center text-white '>
+                <div className='md:col-span-1 col-span-6 row-span-1  max-h-[400px] relative'>
                     <img src={img3} alt="user" />
+                    <div className="absolute inset-0 bg-gradient-to-b from-white to-black opacity-50 flex justify-left items-end">
+                        <p className="text-[#f2f2f2] font-semibold pl-10 pb-4">Workshop at University of Sargodha</p>
+                    </div>
                 </div>
-                <div className='md:col-span-1 col-span-6 row-span-1 bg-blue-600 flex justify-center items-center text-white '>
+                <div className='md:col-span-1 col-span-6 row-span-1  max-h-[400px] relative'>
                     <img src={img4} alt="user" />
+                    <div className="absolute inset-0 bg-gradient-to-b from-white to-black opacity-50 flex justify-left items-end">
+                        <p className="text-[#f2f2f2] font-semibold pl-10 pb-4">Workshop at University of Sargodha</p>
+                    </div>
                 </div>
             </div>
             <div className='grid grid-cols-12 grid-rows-5 md:grid-rows-2 gap-y-2 mt-2 gap-x-2'>

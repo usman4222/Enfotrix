@@ -48,7 +48,7 @@ const CourseDetailsPage = () => {
                             </div>
                         </div>
                         <div className='pt-10 flex justify-center md:block'>
-                            <Link to='/payment'>
+                            <Link to='/student-intake'>
                                 <button className='bg-yellow-400 px-12 py-3 text-[#000] font-semibold text-xl uppercase rounded-full'>apply now</button>
                             </Link>
                         </div>
@@ -99,7 +99,7 @@ const CourseDetailsPage = () => {
                             </div>
                         </div>
                         <div className='pt-10 flex justify-center md:block'>
-                            <Link to='/payment'>
+                            <Link to='/student-intake'>
                                 <button className='bg-yellow-400 px-12 py-3 text-[#000] font-semibold text-xl uppercase rounded-full'>apply now</button>
                             </Link>
                         </div>
@@ -150,7 +150,7 @@ const CourseDetailsPage = () => {
                             </div>
                         </div>
                         <div className='pt-10 flex justify-center md:block'>
-                            <Link to='/payment'>
+                            <Link to='/student-intake'>
                                 <button className='bg-yellow-400 px-12 py-3 text-[#000] font-semibold text-xl uppercase rounded-full'>apply now</button>
                             </Link>
                         </div>
@@ -201,7 +201,7 @@ const CourseDetailsPage = () => {
                             </div>
                         </div>
                         <div className='pt-10 flex justify-center md:block'>
-                            <Link to='/payment'>
+                            <Link to='/student-intake'>
                                 <button className='bg-yellow-400 px-12 py-3 text-[#000] font-semibold text-xl uppercase rounded-full'>apply now</button>
                             </Link>
                         </div>
@@ -252,7 +252,7 @@ const CourseDetailsPage = () => {
                             </div>
                         </div>
                         <div className='pt-10 flex justify-center md:block'>
-                            <Link to='/payment'>
+                            <Link to='/student-intake'>
                                 <button className='bg-yellow-400 px-12 py-3 text-[#000] font-semibold text-xl uppercase rounded-full'>apply now</button>
                             </Link>
                         </div>
@@ -303,7 +303,7 @@ const CourseDetailsPage = () => {
                             </div>
                         </div>
                         <div className='pt-10 flex justify-center md:block'>
-                            <Link to='/payment'>
+                            <Link to='/student-intake'>
                                 <button className='bg-yellow-400 px-12 py-3 text-[#000] font-semibold text-xl uppercase rounded-full'>apply now</button>
                             </Link>
                         </div>
