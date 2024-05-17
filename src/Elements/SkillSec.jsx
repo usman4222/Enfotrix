@@ -4,157 +4,169 @@ import { Link } from "react-router-dom";
 
 const SkillSec = () => {
   return (
-    <div className="flex-col md:flex-row">
-      <div className="md:flex md:flex-row flex flex-col ">
 
-        <div
-          className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/Graphic design.png")` }}
+    <>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-1">
+        <div style={{ backgroundImage: `url("./src/assets/Graphic design.png")` }}
+          className="h-fit w-full border bg-cover"
         >
-          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
-          <div className="flex justify-around text-white mt-5 relative z-10">
-            <label>2 Months</label>
-            <label htmlFor="" className="text-yellow-500">
-              Available Online {" "}
-            </label>
+          <div className="flex justify-between px-10 py-5">
+            <p className="text-[#f2f2f2]">2 Months</p>
+            <p className="text-[#ffba21]">Available Online</p>
           </div>
-
-          <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">GRAPHIC DESIGN</h1>
-            <Link to='/graphic-design'>
-              <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
+          <div className="flex justify-center items-center pt-16">
+            <h2 className="text-4xl text-[#f2f2f2] text-center">GRAPHIC <br /> DESIGN</h2>
+          </div>
+          <div className="flex justify-center items-center py-5">
+            <Link to='/student-intake'>
+              <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
+                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                  APPLY NOW
+                </span>
+              </button>
             </Link>
           </div>
-
-          <div className="flex gap-x-3 items-center justify-center text-white pt-24 relative z-10">
-            <span className="line-through text-16 text-sm">RS25000</span>
-            <span className="text-xl">RS25000 </span>
+          <div className="flex justify-center items-center pt-10 pb-3">
+            <div className="flex items-center gap-3">
+              <h4 className="line-through text-base text-[#f2f2f2]">RS 25,000</h4>
+              <h2 className="text-2xl text-[#f2f2f2] font-semibold">RS 10,000</h2>
+            </div>
           </div>
         </div>
-        <div
-          className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/E commerce.png")` }}
+        <div style={{ backgroundImage: `url("./src/assets/E commerce.png")` }}
+          className="h-fit w-full border bg-cover"
         >
-          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
-          <div className="flex justify-around text-white mt-5 relative z-10">
-            <label>2 Months</label>
-            <label htmlFor="" className="text-yellow-500">
-              Available Online {" "}
-            </label>
+          <div className="flex justify-between px-10 py-5">
+            <p className="text-[#f2f2f2]">2 Months</p>
+            <p className="text-[#ffba21]">Available Online</p>
           </div>
-
-          <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">E-COMMERCE</h1>
-            <Link to='/e-commerce'>
-              <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
+          <div className="flex justify-center items-center pt-[104px]">
+            <h2 className="text-4xl text-[#f2f2f2] text-center">E-COMMERCE</h2>
+          </div>
+          <div className="flex justify-center items-center py-5">
+            <Link to='/student-intake'>
+              <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
+                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                  APPLY NOW
+                </span>
+              </button>
             </Link>
           </div>
-
-          <div className="flex gap-x-3 items-center justify-center text-white pt-24 relative z-10">
-            <span className="line-through text-16 text-sm">RS25000</span>
-            <span className="text-xl">RS25000 </span>
+          <div className="flex justify-center items-center pt-10 pb-3">
+            <div className="flex items-center gap-3">
+              <h4 className="line-through text-base text-[#f2f2f2]">RS 25,000</h4>
+              <h2 className="text-2xl text-[#f2f2f2] font-semibold">RS 10,000</h2>
+            </div>
           </div>
         </div>
-        <div
-          className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/Digital Marketing.png")` }}
+        <div style={{ backgroundImage: `url("./src/assets/Digital Marketing.png")` }}
+          className="h-fit w-full border bg-cover"
         >
-          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
-          <div className="flex justify-around text-white mt-5 relative z-10">
-            <label>2 Months</label>
-            <label htmlFor="" className="text-yellow-500">
-              Available Online {" "}
-            </label>
+          <div className="flex justify-between px-10 py-5">
+            <p className="text-[#f2f2f2]">2 Months</p>
+            <p className="text-[#ffba21]">Available Online</p>
           </div>
-
-          <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">DIGITAL MARKETING</h1>
-            <Link to='/marketing'>
-              <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
+          <div className="flex justify-center items-center pt-16">
+            <h2 className="text-4xl text-[#f2f2f2] text-center">DIGITAL  <br /> MARKETING</h2>
+          </div>
+          <div className="flex justify-center items-center py-5">
+            <Link to='/student-intake'>
+              <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
+                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                  APPLY NOW
+                </span>
+              </button>
             </Link>
           </div>
-
-          <div className="flex gap-x-3 items-center justify-center text-white pt-24 relative z-10">
-            <span className="line-through text-16 text-sm">RS25000</span>
-            <span className="text-xl">RS25000 </span>
+          <div className="flex justify-center items-center pt-10 pb-3">
+            <div className="flex items-center gap-3">
+              <h4 className="line-through text-base text-[#f2f2f2]">RS 25,000</h4>
+              <h2 className="text-2xl text-[#f2f2f2] font-semibold">RS 10,000</h2>
+            </div>
           </div>
         </div>
+        <div style={{ backgroundImage: `url("./src/assets/App Dev.png")` }}
+          className="h-fit w-full border bg-cover"
+        >
+          <div className="flex justify-between px-10 py-5">
+            <p className="text-[#f2f2f2]">2 Months</p>
+            <p className="text-[#ffba21]">Available Online</p>
+          </div>
+          <div className="flex justify-center items-center pt-16">
+            <h2 className="text-4xl text-[#f2f2f2] text-center">APP <br /> DEVELOPMENT</h2>
+          </div>
+          <div className="flex justify-center items-center py-5">
+            <Link to='/student-intake'>
+              <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
+                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                  APPLY NOW
+                </span>
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center items-center pt-10 pb-3">
+            <div className="flex items-center gap-3">
+              <h4 className="line-through text-base text-[#f2f2f2]">RS 25,000</h4>
+              <h2 className="text-2xl text-[#f2f2f2] font-semibold">RS 10,000</h2>
+            </div>
+          </div>
+        </div>
+        <div style={{ backgroundImage: `url("./src/assets/Web.png")` }}
+          className="h-fit w-full border bg-cover"
+        >
+          <div className="flex justify-between px-10 py-5">
+            <p className="text-[#f2f2f2]">2 Months</p>
+            <p className="text-[#ffba21]">Available Online</p>
+          </div>
+          <div className="flex justify-center items-center pt-16">
+            <h2 className="text-4xl text-[#f2f2f2] text-center">WEB<br /> DEVELOPMENT</h2>
+          </div>
+          <div className="flex justify-center items-center py-5">
+            <Link to='/student-intake'>
+              <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
+                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                  APPLY NOW
+                </span>
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center items-center pt-10 pb-3">
+            <div className="flex items-center gap-3">
+              <h4 className="line-through text-base text-[#f2f2f2]">RS 25,000</h4>
+              <h2 className="text-2xl text-[#f2f2f2] font-semibold">RS 10,000</h2>
+            </div>
+          </div>
+        </div>
+        <div style={{ backgroundImage: `url("./src/assets/3D Modeling.png")` }}
+          className="h-fit w-full border bg-cover"
+        >
+          <div className="flex justify-between px-10 py-5">
+            <p className="text-[#f2f2f2]">2 Months</p>
+            <p className="text-[#ffba21]">Available Online</p>
+          </div>
+          <div className="flex justify-center items-center pt-16">
+            <h2 className="text-4xl text-[#f2f2f2] text-center">3D<br /> MODELING</h2>
+          </div>
+          <div className="flex justify-center items-center py-5">
+            <Link to='/student-intake'>
+              <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
+                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                  APPLY NOW
+                </span>
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center items-center pt-10 pb-3">
+            <div className="flex items-center gap-3">
+              <h4 className="line-through text-base text-[#f2f2f2]">RS 25,000</h4>
+              <h2 className="text-2xl text-[#f2f2f2] font-semibold">RS 10,000</h2>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div className="md:flex md:flex-row flex flex-col ">
-        <div
-          className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/App Dev.png")` }}
-        >
-          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
-          <div className="flex justify-around text-white mt-5 relative z-10">
-            <label>2 Months</label>
-            <label htmlFor="" className="text-yellow-500">
-              Available Online {" "}
-            </label>
-          </div>
-
-          <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">APP DEVELOPMENT</h1>
-            <Link to='/app-development'>
-              <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
-            </Link>
-          </div>
-
-          <div className="flex gap-x-3 items-center justify-center text-white pt-24 relative z-10">
-            <span className="line-through text-16 text-sm">RS25000</span>
-            <span className="text-xl">RS25000 </span>
-          </div>
-        </div>
-        <div
-          className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/Web.png")` }}
-        >
-          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
-          <div className="flex justify-around text-white mt-5 relative z-10">
-            <label>2 Months</label>
-            <label htmlFor="" className="text-yellow-500">
-              Available Online {" "}
-            </label>
-          </div>
-
-          <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">WEB DEVELOPMENT</h1>
-            <Link to='/web-development'>
-              <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
-            </Link>
-          </div>
-
-          <div className="flex gap-x-3 items-center justify-center text-white pt-24 relative z-10">
-            <span className="line-through text-16 text-sm">RS25000</span>
-            <span className="text-xl">RS25000 </span>
-          </div>
-        </div>
-        <div
-          className="h-fit w-full md:w-[33.33333%] border relative bg-cover"
-          style={{ backgroundImage: `url("./src/assets/3D Modeling.png")` }}
-        >
-          {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> */}
-          <div className="flex justify-around text-white mt-5 relative z-10">
-            <label>2 Months</label>
-            <label htmlFor="" className="text-yellow-500">
-              Available Online {" "}
-            </label>
-          </div>
-
-          <div className="flex flex-col items-center justify-center pt-24 relative z-10 text-center">
-            <h1 className="text-white text-4xl py-3">3D MODELING</h1>
-            <Link to='/3d'>
-              <Button bgColor={"bg-yellow-dark"} btnText={"Apply Now"} />
-            </Link>
-          </div>
-
-          <div className="flex gap-x-3 items-center justify-center text-white pt-24 relative z-10">
-            <span className="line-through text-16 text-sm">RS25000</span>
-            <span className="text-xl">RS25000 </span>
-          </div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 
