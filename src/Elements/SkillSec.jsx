@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { Link } from "react-router-dom";
+import img1 from '../assets/Graphic design.png'
 
 const SkillSec = () => {
   return (
@@ -8,7 +9,7 @@ const SkillSec = () => {
     <>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-1">
-        <div style={{ backgroundImage: `url("./src/assets/Graphic design.png")` }}
+        <div style={{ backgroundImage: {img1} }}
           className="h-fit w-full border bg-cover"
         >
           <div className="flex justify-between px-10 py-5">
@@ -21,7 +22,7 @@ const SkillSec = () => {
           <div className="flex justify-center items-center py-5">
             <Link to='/student-intake'>
               <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
-                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                <span className="md:text-[24px] font-bold text-base px-5 py-1 text-[#414042]">
                   APPLY NOW
                 </span>
               </button>
@@ -47,7 +48,7 @@ const SkillSec = () => {
           <div className="flex justify-center items-center py-5">
             <Link to='/student-intake'>
               <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
-                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                <span className="md:text-[24px] font-bold text-base px-5 py-1 text-[#414042]">
                   APPLY NOW
                 </span>
               </button>
@@ -73,7 +74,7 @@ const SkillSec = () => {
           <div className="flex justify-center items-center py-5">
             <Link to='/student-intake'>
               <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
-                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                <span className="md:text-[24px] font-bold text-base px-5 py-1 text-[#414042]">
                   APPLY NOW
                 </span>
               </button>
@@ -99,7 +100,7 @@ const SkillSec = () => {
           <div className="flex justify-center items-center py-5">
             <Link to='/student-intake'>
               <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
-                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                <span className="md:text-[24px] font-bold text-base px-5 py-1 text-[#414042]">
                   APPLY NOW
                 </span>
               </button>
@@ -125,7 +126,7 @@ const SkillSec = () => {
           <div className="flex justify-center items-center py-5">
             <Link to='/student-intake'>
               <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
-                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                <span className="md:text-[24px] font-bold text-base px-5 py-1 text-[#414042]">
                   APPLY NOW
                 </span>
               </button>
@@ -151,7 +152,7 @@ const SkillSec = () => {
           <div className="flex justify-center items-center py-5">
             <Link to='/student-intake'>
               <button className="bg-[#ffba21] flex flex-col md:items-center items-center rounded-full py-1">
-                <span className="md:text-[24px] text-base px-5 py-1 text-[#414042]">
+                <span className="md:text-[24px] text-base font-bold px-5 py-1 text-[#414042]">
                   APPLY NOW
                 </span>
               </button>
