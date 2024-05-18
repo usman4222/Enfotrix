@@ -22,6 +22,7 @@ const IntakeForm = () => {
     const [hasError, setHasError] = useState(null);
 
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phonePattern = /^[0-9]{11}$/;
 
     const onChange = (event) => {
         const { name, value } = event.target;
@@ -31,9 +32,9 @@ const IntakeForm = () => {
         }));
 
         if (name === 'email' && !emailPattern.test(value)) {
-            setHasError('Please match the requested format.');
-        } else if (name === 'phone' && !/^[0-9]*$/.test(value)) {
-            setHasError('Please match the requested format.');
+            setHasError('Please enter a valid email address.');
+        } else if (name === 'phone' && !phonePattern.test(value)) {
+            setHasError('Please enter a valid phone number of 11 digits.');
         } else {
             setHasError(null);
         }
@@ -50,8 +51,18 @@ const IntakeForm = () => {
     const submitEmail = (e) => {
         e.preventDefault();
 
-        emailjs.send('service_31p2vdp', 'template_gh2wsgq', {
-            name: data.name,
+        if (!emailPattern.test(data.email)) {
+            toast.error('Please enter a valid email address.');
+            return;
+        }
+
+        if (!phonePattern.test(data.phone)) {
+            toast.error('Please enter a valid phone number of 11 digits.');
+            return;
+        }
+
+        emailjs.send('service_31p2vdp', 'template_vzx7gf9', {
+            from_name: data.name,
             email: data.email,
             city: data.city,
             phone: data.phone,
@@ -153,7 +164,8 @@ const IntakeForm = () => {
                             </div>
                             <div className='mt-2'>
                                 <h4 className='font-bold text-sm uppercase py-3'>Your Age</h4>
-                                <input type="number"
+                                <input
+                                    type="number"
                                     name="age"
                                     className='bg-[#f2f2f2] w-full py-2 focus:ring-0 focus:outline-none pl-5'
                                     onKeyDown={(e) => ['e', 'E', '+', '-'].includes(e.key) && e.preventDefault()}
@@ -179,7 +191,9 @@ const IntakeForm = () => {
                                 <Link to='/student-intake'>
                                     <button className='mb-10 md:mb-0  px-20 py-3 md:py-3 text-[#414042] font-bold text-xl uppercase rounded-full'>back</button>
                                 </Link>
-                                <button type='submit' className='bg-[#0047ab] px-20 py-3 text-[#f2f2f2] font-bold text-xl uppercase rounded-full'>Next</button>
+                                <Link to='/payment'>
+                                    <button type='submit' className='bg-[#0047ab] px-20 py-3 text-[#f2f2f2] font-bold text-xl uppercase rounded-full'>Next</button>
+                                </Link>
                             </div>
                         </div>
                     </form>
@@ -197,7 +211,7 @@ const IntakeForm = () => {
                                 <img className='object-cover w-20' src={person} alt="Person" />
                             </div>
                             <div className="text-center sm:text-left py-3 md:py-0">
-                                <h3 className='text                                #f2f2f2] font-bold uppercase text-xl'>still need any help</h3>
+                                <h3 className='text-[#f2f2f2] font-bold uppercase text-xl'>still need any help</h3>
                                 <p className='text-[#f2f2f2] py-1 px-3 md:px-0 lg:pr-5'>if you have any confusions, don't hesitate to contact support</p>
                             </div>
                         </div>
@@ -209,15 +223,9 @@ const IntakeForm = () => {
                 </div>
             </div>
             {isModalOpen && <Modal onClose={() => setIsModalOpen(false)} />}
-            {hasError && (
-                <span className="text-sm text-white bg-red-500 p-1 rounded">
-                    {hasError}
-                </span>
-            )}
             <ToastContainer />
         </>
     );
 }
 
 export default IntakeForm;
-

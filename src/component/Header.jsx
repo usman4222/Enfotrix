@@ -28,6 +28,8 @@ const Header = () => {
                 return "COURSES"
             case '/mentors':
                 return "MENTORS"
+                case '/student-info':
+                    return "STUDENT-INTAKE"
             default:
                 return 'undefined';
         }
