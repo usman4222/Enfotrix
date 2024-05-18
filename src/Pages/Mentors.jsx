@@ -54,14 +54,6 @@ const Mentors = () => {
                         </li>
                         <li>
                             <Link
-                                to="/photo"
-                                className={`hover:underline text-sm uppercase ${activeLink === '/photo' && 'text-yellow-500'}`}
-                            >
-                                photo gallery
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
                                 to="/batches"
                                 className={`hover:underline text-sm uppercase ${activeLink === '/batches' && 'text-yellow-500'}`}
                             >
@@ -74,30 +66,6 @@ const Mentors = () => {
                                 className={`hover:underline text-sm uppercase ${activeLink === '/faqs' && 'text-yellow-500'}`}
                             >
                                 faq's
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="/jobs"
-                                className={`hover:underline text-sm mr-5 uppercase ${activeLink === '/jobs' && 'text-yellow-500'}`}
-                            >
-                                jobs / internships portal
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="/testimonials"
-                                className={`hover:underline text-sm uppercase ${activeLink === '/testimonials' && 'text-yellow-500'}`}
-                            >
-                                testimonials
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="/login"
-                                className={`hover:underline text-sm uppercase ${activeLink === '/login' && 'text-yellow-500'}`}
-                            >
-                                candidate login
                             </Link>
                         </li>
                         <li>

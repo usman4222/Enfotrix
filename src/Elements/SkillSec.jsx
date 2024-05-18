@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "./Button";
 import { Link } from "react-router-dom";
-import img1 from '../assets/Graphic design.png'
 
 const SkillSec = () => {
   return (
@@ -9,7 +8,7 @@ const SkillSec = () => {
     <>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-1">
-        <div style={{ backgroundImage: {img1} }}
+        <div style={{ backgroundImage: `url("./src/assets/Graphic design.png")` }}
           className="h-fit w-full border bg-cover"
         >
           <div className="flex justify-between px-10 py-5">
